@@ -1,0 +1,9 @@
+technician_id,technician_name,role,home_base,efficiency_factor,first_time_fix_skill,rating_baseline,hourly_cost
+1,Marcus Reed,Senior Technician,Nashville,0.94,0.91,4.8,34
+2,Elena Brooks,Senior Technician,Franklin,0.97,0.94,4.9,35
+3,Troy Wallace,Service Technician,Nolensville,1.02,0.86,4.6,29
+4,Devon Price,Service Technician,Spring Hill,1.06,0.83,4.5,28
+5,Caleb Morgan,Install Lead,Nashville,0.96,0.89,4.7,36
+6,Maya Bennett,Service Technician,Brentwood,0.99,0.9,4.8,31
+7,Noah Jenkins,Install Lead,Franklin,1.01,0.87,4.6,35
+8,Isaiah Turner,Service Technician,Nashville,1.1,0.79,4.3,27

@@ -1,0 +1,1451 @@
+customer_id,customer_name,customer_type,city,signup_date,lead_source,maintenance_member
+1,Customer 0001,Residential,Brentwood,2023-06-08,Google,0
+2,Customer 0002,Residential,Nashville,2020-10-28,Home Services Marketplace,0
+3,Customer 0003,Residential,Nashville,2024-10-22,Google,0
+4,Customer 0004,Residential,Nashville,2021-10-30,Google,0
+5,Customer 0005,Residential,Brentwood,2023-09-28,Referral,1
+6,Customer 0006,Residential,Nashville,2020-09-20,Home Services Marketplace,0
+7,Customer 0007,Residential,Brentwood,2024-02-08,Google,0
+8,Customer 0008,Residential,Nolensville,2022-11-05,Google,0
+9,Customer 0009,Residential,Nolensville,2024-09-25,Organic,1
+10,Customer 0010,Commercial,Franklin,2022-11-08,Google,0
+11,Customer 0011,Residential,Nashville,2022-12-13,Referral,0
+12,Customer 0012,Residential,Brentwood,2023-09-13,Home Services Marketplace,0
+13,Customer 0013,Residential,Spring Hill,2024-05-30,Referral,0
+14,Customer 0014,Residential,Franklin,2024-01-24,Referral,0
+15,Customer 0015,Residential,Nashville,2021-02-22,Organic,0
+16,Customer 0016,Residential,Brentwood,2020-11-20,Google,1
+17,Customer 0017,Residential,Franklin,2021-05-22,Organic,0
+18,Customer 0018,Residential,Nashville,2020-09-01,Home Services Marketplace,1
+19,Customer 0019,Residential,Nashville,2023-03-17,Referral,0
+20,Customer 0020,Commercial,Nashville,2021-10-18,Home Services Marketplace,0
+21,Customer 0021,Residential,Nashville,2022-10-04,Home Services Marketplace,0
+22,Customer 0022,Residential,Brentwood,2024-03-12,Google,0
+23,Customer 0023,Residential,Franklin,2021-09-12,Referral,0
+24,Customer 0024,Residential,Brentwood,2024-03-14,Referral,0
+25,Customer 0025,Residential,Nashville,2024-05-12,Google,0
+26,Customer 0026,Residential,Nashville,2021-08-19,Google,1
+27,Customer 0027,Commercial,Franklin,2022-01-04,Google,0
+28,Customer 0028,Commercial,Franklin,2021-02-28,Organic,1
+29,Customer 0029,Residential,Brentwood,2023-06-25,Organic,1
+30,Customer 0030,Residential,Franklin,2024-02-03,Referral,0
+31,Customer 0031,Residential,Spring Hill,2023-07-02,Direct Mail,0
+32,Customer 0032,Residential,Nolensville,2024-05-19,Home Services Marketplace,0
+33,Customer 0033,Residential,Nashville,2021-07-24,Google,0
+34,Customer 0034,Residential,Franklin,2022-01-01,Direct Mail,0
+35,Customer 0035,Residential,Brentwood,2024-05-07,Direct Mail,0
+36,Customer 0036,Residential,Spring Hill,2023-04-03,Google,1
+37,Customer 0037,Residential,Nashville,2024-07-14,Google,1
+38,Customer 0038,Residential,Franklin,2020-09-17,Referral,0
+39,Customer 0039,Residential,Nashville,2021-11-23,Google,1
+40,Customer 0040,Residential,Franklin,2023-10-16,Direct Mail,0
+41,Customer 0041,Residential,Nolensville,2020-12-23,Google,0
+42,Customer 0042,Residential,Spring Hill,2022-07-09,Home Services Marketplace,0
+43,Customer 0043,Residential,Franklin,2024-08-13,Google,0
+44,Customer 0044,Residential,Brentwood,2023-09-28,Google,0
+45,Customer 0045,Residential,Brentwood,2024-08-06,Direct Mail,0
+46,Customer 0046,Residential,Spring Hill,2023-08-23,Google,0
+47,Customer 0047,Residential,Franklin,2020-12-02,Direct Mail,0
+48,Customer 0048,Residential,Brentwood,2022-04-29,Home Services Marketplace,1
+49,Customer 0049,Residential,Nashville,2022-07-24,Referral,0
+50,Customer 0050,Residential,Franklin,2024-09-03,Organic,1
+51,Customer 0051,Residential,Spring Hill,2022-09-20,Organic,1
+52,Customer 0052,Residential,Nolensville,2023-11-26,Google,1
+53,Customer 0053,Residential,Franklin,2023-06-01,Referral,0
+54,Customer 0054,Residential,Spring Hill,2021-11-21,Google,0
+55,Customer 0055,Residential,Brentwood,2024-11-22,Direct Mail,0
+56,Customer 0056,Residential,Spring Hill,2024-01-17,Referral,0
+57,Customer 0057,Residential,Franklin,2024-08-24,Google,0
+58,Customer 0058,Residential,Nashville,2022-06-05,Google,0
+59,Customer 0059,Residential,Brentwood,2021-11-10,Organic,1
+60,Customer 0060,Residential,Franklin,2023-10-04,Direct Mail,1
+61,Customer 0061,Residential,Brentwood,2020-10-13,Google,0
+62,Customer 0062,Residential,Nashville,2021-12-31,Google,0
+63,Customer 0063,Residential,Spring Hill,2023-12-08,Google,0
+64,Customer 0064,Residential,Nashville,2022-09-18,Google,0
+65,Customer 0065,Residential,Spring Hill,2021-08-23,Google,0
+66,Customer 0066,Residential,Nashville,2021-10-22,Referral,0
+67,Customer 0067,Residential,Spring Hill,2020-12-17,Google,0
+68,Customer 0068,Residential,Nashville,2021-05-11,Google,1
+69,Customer 0069,Residential,Nashville,2024-07-27,Google,1
+70,Customer 0070,Residential,Brentwood,2024-06-01,Google,0
+71,Customer 0071,Residential,Nashville,2023-01-08,Home Services Marketplace,1
+72,Customer 0072,Residential,Spring Hill,2024-02-03,Referral,0
+73,Customer 0073,Residential,Franklin,2021-04-23,Referral,0
+74,Customer 0074,Residential,Brentwood,2021-04-04,Google,1
+75,Customer 0075,Residential,Spring Hill,2024-05-17,Organic,1
+76,Customer 0076,Residential,Nashville,2023-10-18,Organic,1
+77,Customer 0077,Residential,Nashville,2023-07-01,Referral,1
+78,Customer 0078,Commercial,Nashville,2024-09-09,Google,0
+79,Customer 0079,Residential,Franklin,2024-12-15,Google,0
+80,Customer 0080,Commercial,Nashville,2024-01-27,Organic,0
+81,Customer 0081,Residential,Franklin,2024-12-03,Google,0
+82,Customer 0082,Residential,Spring Hill,2024-02-21,Referral,0
+83,Customer 0083,Residential,Nolensville,2024-02-23,Referral,0
+84,Customer 0084,Residential,Nashville,2024-10-02,Home Services Marketplace,1
+85,Customer 0085,Residential,Nashville,2024-05-26,Referral,1
+86,Customer 0086,Residential,Franklin,2021-06-30,Organic,1
+87,Customer 0087,Residential,Spring Hill,2024-01-25,Direct Mail,0
+88,Customer 0088,Commercial,Nolensville,2024-11-02,Google,0
+89,Customer 0089,Residential,Spring Hill,2022-09-01,Home Services Marketplace,1
+90,Customer 0090,Residential,Spring Hill,2023-06-25,Google,0
+91,Customer 0091,Residential,Brentwood,2024-10-04,Home Services Marketplace,1
+92,Customer 0092,Residential,Nashville,2022-05-25,Referral,0
+93,Customer 0093,Residential,Nolensville,2023-09-23,Google,0
+94,Customer 0094,Residential,Nashville,2024-08-02,Direct Mail,0
+95,Customer 0095,Residential,Nashville,2022-09-26,Organic,1
+96,Customer 0096,Residential,Nolensville,2024-10-27,Google,0
+97,Customer 0097,Residential,Spring Hill,2023-06-28,Google,0
+98,Customer 0098,Residential,Brentwood,2023-03-21,Referral,1
+99,Customer 0099,Residential,Spring Hill,2021-09-29,Google,1
+100,Customer 0100,Residential,Nashville,2022-01-23,Direct Mail,0
+101,Customer 0101,Residential,Franklin,2020-10-25,Organic,0
+102,Customer 0102,Residential,Nashville,2021-04-02,Direct Mail,0
+103,Customer 0103,Residential,Brentwood,2024-04-11,Organic,1
+104,Customer 0104,Residential,Nashville,2022-09-08,Google,0
+105,Customer 0105,Residential,Brentwood,2023-11-26,Referral,0
+106,Customer 0106,Residential,Spring Hill,2024-01-01,Organic,0
+107,Customer 0107,Residential,Nashville,2024-12-22,Google,0
+108,Customer 0108,Residential,Nashville,2021-07-29,Organic,1
+109,Customer 0109,Residential,Franklin,2023-10-12,Referral,1
+110,Customer 0110,Commercial,Nolensville,2020-11-06,Google,0
+111,Customer 0111,Residential,Nashville,2021-06-05,Organic,0
+112,Customer 0112,Commercial,Nashville,2023-08-29,Organic,1
+113,Customer 0113,Residential,Nashville,2024-11-02,Google,1
+114,Customer 0114,Residential,Spring Hill,2020-09-01,Google,0
+115,Customer 0115,Residential,Franklin,2023-11-20,Organic,1
+116,Customer 0116,Residential,Franklin,2024-02-24,Organic,0
+117,Customer 0117,Residential,Nashville,2020-08-28,Home Services Marketplace,0
+118,Customer 0118,Residential,Nolensville,2021-01-27,Referral,0
+119,Customer 0119,Residential,Nashville,2024-04-18,Referral,0
+120,Customer 0120,Residential,Nolensville,2021-11-04,Organic,0
+121,Customer 0121,Commercial,Spring Hill,2021-07-17,Home Services Marketplace,0
+122,Customer 0122,Residential,Spring Hill,2021-11-26,Referral,0
+123,Customer 0123,Residential,Nashville,2022-06-15,Google,1
+124,Customer 0124,Residential,Nashville,2020-09-06,Home Services Marketplace,0
+125,Customer 0125,Residential,Franklin,2022-07-06,Google,1
+126,Customer 0126,Residential,Nashville,2023-03-09,Home Services Marketplace,0
+127,Customer 0127,Residential,Nashville,2022-10-30,Organic,0
+128,Customer 0128,Residential,Brentwood,2022-09-10,Google,1
+129,Customer 0129,Residential,Franklin,2022-08-15,Referral,1
+130,Customer 0130,Commercial,Nolensville,2024-11-12,Home Services Marketplace,0
+131,Customer 0131,Residential,Nolensville,2024-12-10,Direct Mail,1
+132,Customer 0132,Residential,Nashville,2022-08-17,Referral,0
+133,Customer 0133,Residential,Nolensville,2023-09-28,Referral,0
+134,Customer 0134,Residential,Nashville,2022-10-18,Google,0
+135,Customer 0135,Residential,Brentwood,2024-01-19,Home Services Marketplace,0
+136,Customer 0136,Commercial,Spring Hill,2021-12-25,Google,1
+137,Customer 0137,Residential,Franklin,2024-10-28,Google,0
+138,Customer 0138,Residential,Franklin,2023-12-16,Google,0
+139,Customer 0139,Residential,Franklin,2023-02-22,Google,0
+140,Customer 0140,Residential,Spring Hill,2022-08-12,Google,1
+141,Customer 0141,Residential,Nashville,2021-12-14,Google,0
+142,Customer 0142,Residential,Spring Hill,2024-08-04,Home Services Marketplace,0
+143,Customer 0143,Residential,Brentwood,2023-08-04,Google,0
+144,Customer 0144,Residential,Nashville,2024-04-08,Referral,0
+145,Customer 0145,Commercial,Nashville,2022-05-15,Organic,0
+146,Customer 0146,Residential,Nolensville,2021-07-28,Direct Mail,1
+147,Customer 0147,Residential,Brentwood,2024-01-22,Direct Mail,0
+148,Customer 0148,Residential,Nashville,2023-03-25,Referral,0
+149,Customer 0149,Residential,Spring Hill,2020-12-19,Google,0
+150,Customer 0150,Residential,Brentwood,2023-08-13,Google,1
+151,Customer 0151,Residential,Nolensville,2021-08-11,Home Services Marketplace,0
+152,Customer 0152,Residential,Nolensville,2024-09-29,Referral,0
+153,Customer 0153,Residential,Franklin,2022-02-20,Organic,1
+154,Customer 0154,Residential,Nashville,2022-03-25,Google,0
+155,Customer 0155,Residential,Spring Hill,2022-05-26,Organic,1
+156,Customer 0156,Residential,Franklin,2021-04-30,Google,0
+157,Customer 0157,Residential,Nolensville,2022-04-07,Referral,1
+158,Customer 0158,Residential,Nolensville,2023-03-03,Home Services Marketplace,0
+159,Customer 0159,Residential,Nolensville,2022-06-13,Google,0
+160,Customer 0160,Residential,Franklin,2022-11-07,Google,0
+161,Customer 0161,Residential,Franklin,2022-03-30,Google,1
+162,Customer 0162,Residential,Nolensville,2021-08-20,Organic,0
+163,Customer 0163,Residential,Nashville,2023-11-27,Google,1
+164,Customer 0164,Residential,Brentwood,2020-09-22,Google,1
+165,Customer 0165,Residential,Franklin,2022-06-19,Home Services Marketplace,0
+166,Customer 0166,Residential,Nashville,2021-02-05,Google,0
+167,Customer 0167,Residential,Brentwood,2021-11-15,Referral,0
+168,Customer 0168,Residential,Franklin,2023-02-14,Referral,0
+169,Customer 0169,Residential,Franklin,2023-09-07,Google,0
+170,Customer 0170,Residential,Nashville,2021-12-21,Direct Mail,0
+171,Customer 0171,Residential,Brentwood,2020-11-01,Referral,1
+172,Customer 0172,Commercial,Brentwood,2022-01-13,Organic,0
+173,Customer 0173,Residential,Spring Hill,2023-04-26,Google,1
+174,Customer 0174,Residential,Nashville,2021-12-25,Google,0
+175,Customer 0175,Residential,Nashville,2023-05-04,Organic,1
+176,Customer 0176,Residential,Nashville,2022-03-23,Google,1
+177,Customer 0177,Residential,Nashville,2022-04-17,Referral,0
+178,Customer 0178,Residential,Nashville,2022-04-19,Google,0
+179,Customer 0179,Residential,Nashville,2021-09-28,Organic,0
+180,Customer 0180,Residential,Nashville,2021-10-27,Direct Mail,0
+181,Customer 0181,Residential,Nashville,2021-11-06,Organic,0
+182,Customer 0182,Residential,Brentwood,2023-09-17,Home Services Marketplace,0
+183,Customer 0183,Commercial,Franklin,2023-04-24,Home Services Marketplace,0
+184,Customer 0184,Residential,Spring Hill,2021-06-30,Google,0
+185,Customer 0185,Residential,Spring Hill,2020-09-12,Google,0
+186,Customer 0186,Residential,Nashville,2024-02-05,Google,0
+187,Customer 0187,Residential,Franklin,2022-09-08,Referral,0
+188,Customer 0188,Residential,Brentwood,2023-09-05,Google,1
+189,Customer 0189,Residential,Nashville,2024-07-30,Organic,0
+190,Customer 0190,Residential,Spring Hill,2021-06-21,Referral,1
+191,Customer 0191,Residential,Nolensville,2024-05-01,Referral,0
+192,Customer 0192,Commercial,Brentwood,2024-03-06,Google,1
+193,Customer 0193,Residential,Nashville,2020-10-11,Home Services Marketplace,1
+194,Customer 0194,Residential,Spring Hill,2022-05-08,Organic,0
+195,Customer 0195,Commercial,Brentwood,2022-03-04,Referral,1
+196,Customer 0196,Residential,Franklin,2022-07-22,Organic,1
+197,Customer 0197,Residential,Brentwood,2023-09-11,Direct Mail,0
+198,Customer 0198,Residential,Nolensville,2024-11-10,Direct Mail,0
+199,Customer 0199,Residential,Brentwood,2024-10-01,Organic,1
+200,Customer 0200,Residential,Nashville,2022-07-01,Direct Mail,0
+201,Customer 0201,Residential,Nashville,2021-06-01,Home Services Marketplace,0
+202,Customer 0202,Residential,Spring Hill,2022-09-08,Google,0
+203,Customer 0203,Residential,Brentwood,2023-02-16,Referral,0
+204,Customer 0204,Residential,Franklin,2022-09-24,Home Services Marketplace,1
+205,Customer 0205,Residential,Franklin,2023-03-19,Google,1
+206,Customer 0206,Residential,Nashville,2022-02-03,Home Services Marketplace,1
+207,Customer 0207,Residential,Nashville,2022-05-21,Referral,1
+208,Customer 0208,Residential,Nashville,2020-09-25,Referral,0
+209,Customer 0209,Residential,Franklin,2023-06-25,Referral,1
+210,Customer 0210,Residential,Spring Hill,2021-01-22,Referral,0
+211,Customer 0211,Residential,Nashville,2023-08-20,Organic,0
+212,Customer 0212,Residential,Nashville,2022-09-09,Google,0
+213,Customer 0213,Commercial,Spring Hill,2022-05-22,Direct Mail,1
+214,Customer 0214,Residential,Brentwood,2020-12-16,Google,0
+215,Customer 0215,Residential,Brentwood,2022-04-09,Direct Mail,0
+216,Customer 0216,Residential,Nashville,2022-10-29,Google,0
+217,Customer 0217,Residential,Brentwood,2024-03-18,Home Services Marketplace,1
+218,Customer 0218,Residential,Nashville,2022-08-26,Google,1
+219,Customer 0219,Residential,Nolensville,2024-12-17,Google,0
+220,Customer 0220,Residential,Nashville,2021-04-11,Referral,0
+221,Customer 0221,Residential,Nashville,2023-01-16,Google,1
+222,Customer 0222,Residential,Nolensville,2023-03-04,Home Services Marketplace,0
+223,Customer 0223,Residential,Spring Hill,2022-10-30,Google,0
+224,Customer 0224,Residential,Nolensville,2020-10-19,Referral,0
+225,Customer 0225,Residential,Spring Hill,2021-04-03,Home Services Marketplace,1
+226,Customer 0226,Residential,Brentwood,2024-10-08,Google,0
+227,Customer 0227,Residential,Spring Hill,2024-05-31,Home Services Marketplace,1
+228,Customer 0228,Residential,Franklin,2022-06-01,Google,0
+229,Customer 0229,Residential,Nashville,2024-02-10,Google,0
+230,Customer 0230,Residential,Nolensville,2021-06-25,Organic,1
+231,Customer 0231,Residential,Brentwood,2021-03-12,Home Services Marketplace,1
+232,Customer 0232,Residential,Franklin,2020-12-12,Home Services Marketplace,0
+233,Customer 0233,Residential,Franklin,2021-07-07,Google,0
+234,Customer 0234,Commercial,Brentwood,2023-09-14,Organic,0
+235,Customer 0235,Residential,Franklin,2021-06-04,Organic,0
+236,Customer 0236,Residential,Nashville,2023-04-19,Direct Mail,0
+237,Customer 0237,Residential,Nashville,2023-05-02,Referral,0
+238,Customer 0238,Residential,Franklin,2022-09-01,Referral,0
+239,Customer 0239,Residential,Nolensville,2024-07-14,Organic,1
+240,Customer 0240,Residential,Franklin,2022-03-09,Direct Mail,1
+241,Customer 0241,Residential,Nashville,2023-07-21,Referral,0
+242,Customer 0242,Commercial,Brentwood,2022-05-15,Direct Mail,0
+243,Customer 0243,Residential,Brentwood,2022-07-02,Direct Mail,1
+244,Customer 0244,Residential,Spring Hill,2022-08-07,Organic,0
+245,Customer 0245,Residential,Franklin,2022-10-27,Home Services Marketplace,0
+246,Customer 0246,Residential,Nashville,2022-12-18,Referral,0
+247,Customer 0247,Residential,Spring Hill,2021-04-14,Referral,0
+248,Customer 0248,Residential,Nashville,2020-10-19,Direct Mail,0
+249,Customer 0249,Residential,Spring Hill,2023-05-16,Home Services Marketplace,0
+250,Customer 0250,Residential,Nashville,2023-10-01,Organic,0
+251,Customer 0251,Residential,Brentwood,2020-12-07,Organic,0
+252,Customer 0252,Residential,Brentwood,2024-06-07,Direct Mail,0
+253,Customer 0253,Residential,Brentwood,2022-07-04,Google,0
+254,Customer 0254,Residential,Franklin,2023-04-28,Google,1
+255,Customer 0255,Residential,Franklin,2021-12-14,Home Services Marketplace,1
+256,Customer 0256,Residential,Franklin,2023-06-13,Home Services Marketplace,0
+257,Customer 0257,Residential,Nashville,2022-04-11,Direct Mail,0
+258,Customer 0258,Residential,Nashville,2024-05-01,Referral,1
+259,Customer 0259,Residential,Nashville,2023-09-17,Home Services Marketplace,1
+260,Customer 0260,Commercial,Brentwood,2021-11-07,Referral,0
+261,Customer 0261,Residential,Nolensville,2021-12-20,Google,1
+262,Customer 0262,Residential,Franklin,2023-07-05,Referral,0
+263,Customer 0263,Commercial,Nolensville,2024-05-15,Organic,0
+264,Customer 0264,Residential,Franklin,2021-10-30,Google,1
+265,Customer 0265,Residential,Brentwood,2021-05-31,Home Services Marketplace,0
+266,Customer 0266,Residential,Spring Hill,2022-09-08,Google,1
+267,Customer 0267,Residential,Nashville,2022-03-20,Google,1
+268,Customer 0268,Residential,Nashville,2022-10-19,Referral,1
+269,Customer 0269,Residential,Brentwood,2021-12-12,Referral,1
+270,Customer 0270,Residential,Nolensville,2022-08-26,Organic,1
+271,Customer 0271,Residential,Nolensville,2023-05-30,Google,1
+272,Customer 0272,Residential,Franklin,2023-08-27,Home Services Marketplace,1
+273,Customer 0273,Residential,Nashville,2021-12-03,Direct Mail,1
+274,Customer 0274,Residential,Brentwood,2023-06-06,Google,0
+275,Customer 0275,Residential,Nashville,2022-06-05,Google,0
+276,Customer 0276,Residential,Nashville,2024-11-09,Google,0
+277,Customer 0277,Commercial,Nashville,2021-10-23,Google,0
+278,Customer 0278,Residential,Nolensville,2021-09-09,Google,0
+279,Customer 0279,Residential,Spring Hill,2024-02-24,Home Services Marketplace,0
+280,Customer 0280,Residential,Brentwood,2024-03-01,Direct Mail,0
+281,Customer 0281,Residential,Franklin,2024-05-11,Organic,1
+282,Customer 0282,Residential,Nashville,2023-08-23,Referral,1
+283,Customer 0283,Residential,Nashville,2024-04-07,Organic,1
+284,Customer 0284,Residential,Franklin,2022-04-22,Referral,1
+285,Customer 0285,Residential,Franklin,2022-06-11,Referral,0
+286,Customer 0286,Residential,Spring Hill,2021-04-13,Referral,0
+287,Customer 0287,Commercial,Franklin,2024-08-20,Direct Mail,1
+288,Customer 0288,Residential,Nolensville,2024-05-15,Referral,0
+289,Customer 0289,Residential,Spring Hill,2024-07-10,Google,0
+290,Customer 0290,Residential,Nashville,2021-06-23,Organic,1
+291,Customer 0291,Residential,Franklin,2021-08-17,Referral,0
+292,Customer 0292,Residential,Franklin,2024-06-02,Home Services Marketplace,1
+293,Customer 0293,Residential,Nashville,2020-08-31,Referral,0
+294,Customer 0294,Residential,Spring Hill,2023-09-12,Referral,1
+295,Customer 0295,Residential,Nolensville,2020-11-19,Google,0
+296,Customer 0296,Residential,Franklin,2022-11-17,Direct Mail,0
+297,Customer 0297,Residential,Brentwood,2024-06-19,Home Services Marketplace,0
+298,Customer 0298,Residential,Nashville,2020-10-31,Referral,0
+299,Customer 0299,Residential,Nashville,2021-10-29,Referral,0
+300,Customer 0300,Residential,Brentwood,2021-03-31,Direct Mail,0
+301,Customer 0301,Commercial,Franklin,2024-09-08,Direct Mail,0
+302,Customer 0302,Residential,Brentwood,2021-09-26,Referral,1
+303,Customer 0303,Residential,Nashville,2024-05-15,Referral,0
+304,Customer 0304,Residential,Franklin,2023-06-01,Referral,0
+305,Customer 0305,Residential,Nolensville,2020-09-03,Home Services Marketplace,0
+306,Customer 0306,Residential,Brentwood,2024-10-30,Organic,0
+307,Customer 0307,Residential,Brentwood,2024-10-24,Google,0
+308,Customer 0308,Residential,Brentwood,2023-01-27,Referral,0
+309,Customer 0309,Residential,Nashville,2021-04-16,Referral,1
+310,Customer 0310,Residential,Nashville,2024-10-21,Google,1
+311,Customer 0311,Residential,Franklin,2022-06-07,Referral,0
+312,Customer 0312,Residential,Franklin,2020-08-15,Direct Mail,0
+313,Customer 0313,Commercial,Brentwood,2024-02-08,Google,1
+314,Customer 0314,Residential,Brentwood,2023-06-14,Referral,0
+315,Customer 0315,Residential,Franklin,2022-08-27,Google,0
+316,Customer 0316,Residential,Nolensville,2022-07-26,Google,0
+317,Customer 0317,Residential,Brentwood,2022-01-08,Organic,0
+318,Customer 0318,Residential,Nashville,2021-08-13,Google,0
+319,Customer 0319,Commercial,Nashville,2020-09-03,Google,1
+320,Customer 0320,Residential,Nashville,2024-12-07,Referral,0
+321,Customer 0321,Residential,Franklin,2021-12-28,Organic,0
+322,Customer 0322,Residential,Franklin,2022-12-28,Google,0
+323,Customer 0323,Residential,Spring Hill,2024-11-14,Referral,0
+324,Customer 0324,Residential,Nashville,2022-07-27,Referral,0
+325,Customer 0325,Residential,Brentwood,2024-05-01,Referral,0
+326,Customer 0326,Residential,Spring Hill,2021-07-06,Referral,0
+327,Customer 0327,Residential,Brentwood,2022-07-12,Home Services Marketplace,0
+328,Customer 0328,Residential,Nashville,2022-01-14,Google,0
+329,Customer 0329,Residential,Spring Hill,2023-09-26,Google,0
+330,Customer 0330,Residential,Nashville,2024-05-03,Referral,1
+331,Customer 0331,Residential,Nashville,2023-01-03,Organic,0
+332,Customer 0332,Residential,Nolensville,2023-08-27,Google,1
+333,Customer 0333,Residential,Nashville,2024-02-13,Organic,0
+334,Customer 0334,Residential,Brentwood,2020-08-23,Organic,0
+335,Customer 0335,Residential,Franklin,2021-09-23,Referral,1
+336,Customer 0336,Residential,Spring Hill,2021-05-31,Direct Mail,0
+337,Customer 0337,Commercial,Nashville,2023-03-16,Google,1
+338,Customer 0338,Residential,Nashville,2023-04-12,Home Services Marketplace,0
+339,Customer 0339,Residential,Brentwood,2024-07-24,Google,1
+340,Customer 0340,Residential,Franklin,2023-05-15,Google,0
+341,Customer 0341,Residential,Spring Hill,2021-07-12,Organic,1
+342,Customer 0342,Residential,Franklin,2020-10-31,Home Services Marketplace,0
+343,Customer 0343,Residential,Franklin,2021-04-28,Google,0
+344,Customer 0344,Residential,Brentwood,2024-08-18,Referral,0
+345,Customer 0345,Residential,Nolensville,2020-12-21,Google,0
+346,Customer 0346,Residential,Brentwood,2021-01-03,Referral,0
+347,Customer 0347,Residential,Franklin,2024-02-01,Referral,0
+348,Customer 0348,Residential,Spring Hill,2020-08-19,Google,1
+349,Customer 0349,Residential,Brentwood,2021-05-07,Google,0
+350,Customer 0350,Residential,Nashville,2022-10-23,Google,1
+351,Customer 0351,Residential,Brentwood,2021-08-06,Home Services Marketplace,0
+352,Customer 0352,Residential,Nashville,2024-03-08,Direct Mail,1
+353,Customer 0353,Residential,Nashville,2021-04-06,Referral,0
+354,Customer 0354,Commercial,Brentwood,2023-03-29,Referral,0
+355,Customer 0355,Residential,Brentwood,2024-04-05,Organic,0
+356,Customer 0356,Residential,Nolensville,2021-02-18,Direct Mail,0
+357,Customer 0357,Residential,Nashville,2022-02-15,Referral,0
+358,Customer 0358,Residential,Franklin,2023-10-11,Referral,0
+359,Customer 0359,Residential,Nolensville,2024-03-16,Google,0
+360,Customer 0360,Residential,Nashville,2022-02-17,Home Services Marketplace,0
+361,Customer 0361,Commercial,Nolensville,2024-10-06,Organic,0
+362,Customer 0362,Residential,Spring Hill,2021-08-17,Referral,1
+363,Customer 0363,Residential,Nashville,2020-08-26,Organic,1
+364,Customer 0364,Residential,Spring Hill,2024-09-24,Referral,1
+365,Customer 0365,Residential,Brentwood,2022-06-27,Organic,0
+366,Customer 0366,Residential,Nolensville,2023-08-31,Referral,0
+367,Customer 0367,Residential,Nashville,2022-05-07,Direct Mail,0
+368,Customer 0368,Residential,Nashville,2021-10-11,Direct Mail,0
+369,Customer 0369,Residential,Franklin,2022-11-01,Referral,0
+370,Customer 0370,Residential,Franklin,2023-11-10,Home Services Marketplace,0
+371,Customer 0371,Residential,Nashville,2021-05-19,Referral,0
+372,Customer 0372,Commercial,Franklin,2020-12-27,Home Services Marketplace,1
+373,Customer 0373,Residential,Spring Hill,2020-09-12,Google,0
+374,Customer 0374,Residential,Franklin,2022-07-11,Google,0
+375,Customer 0375,Residential,Spring Hill,2023-01-07,Direct Mail,1
+376,Customer 0376,Residential,Franklin,2022-11-18,Google,1
+377,Customer 0377,Residential,Spring Hill,2024-10-26,Google,0
+378,Customer 0378,Residential,Nashville,2023-02-05,Home Services Marketplace,0
+379,Customer 0379,Residential,Nashville,2022-04-30,Organic,0
+380,Customer 0380,Residential,Nashville,2022-06-18,Organic,0
+381,Customer 0381,Residential,Spring Hill,2023-10-08,Home Services Marketplace,0
+382,Customer 0382,Residential,Franklin,2022-01-07,Referral,0
+383,Customer 0383,Residential,Nolensville,2024-04-17,Google,0
+384,Customer 0384,Residential,Franklin,2022-05-31,Google,0
+385,Customer 0385,Residential,Nolensville,2021-12-21,Google,0
+386,Customer 0386,Residential,Franklin,2024-03-03,Google,0
+387,Customer 0387,Residential,Nashville,2021-10-11,Referral,0
+388,Customer 0388,Residential,Brentwood,2022-12-15,Google,0
+389,Customer 0389,Residential,Franklin,2022-02-17,Referral,1
+390,Customer 0390,Residential,Franklin,2021-05-31,Referral,0
+391,Customer 0391,Residential,Franklin,2022-12-22,Home Services Marketplace,0
+392,Customer 0392,Residential,Franklin,2021-06-15,Google,1
+393,Customer 0393,Residential,Brentwood,2024-03-24,Google,0
+394,Customer 0394,Residential,Franklin,2023-12-30,Home Services Marketplace,0
+395,Customer 0395,Commercial,Brentwood,2022-04-17,Organic,1
+396,Customer 0396,Residential,Nolensville,2020-08-16,Direct Mail,0
+397,Customer 0397,Residential,Nashville,2023-11-10,Home Services Marketplace,0
+398,Customer 0398,Residential,Nashville,2022-09-29,Direct Mail,1
+399,Customer 0399,Residential,Franklin,2020-10-02,Organic,0
+400,Customer 0400,Residential,Nashville,2024-09-16,Home Services Marketplace,0
+401,Customer 0401,Residential,Nashville,2022-11-30,Referral,1
+402,Customer 0402,Residential,Franklin,2022-10-23,Google,0
+403,Customer 0403,Residential,Nashville,2022-12-01,Direct Mail,0
+404,Customer 0404,Residential,Franklin,2020-11-24,Referral,1
+405,Customer 0405,Commercial,Franklin,2023-12-19,Referral,0
+406,Customer 0406,Residential,Nashville,2021-04-09,Google,0
+407,Customer 0407,Residential,Franklin,2024-01-16,Organic,1
+408,Customer 0408,Residential,Franklin,2022-12-31,Organic,0
+409,Customer 0409,Residential,Franklin,2024-08-27,Google,1
+410,Customer 0410,Residential,Brentwood,2020-10-09,Organic,0
+411,Customer 0411,Residential,Spring Hill,2021-07-27,Organic,0
+412,Customer 0412,Residential,Franklin,2023-08-27,Home Services Marketplace,0
+413,Customer 0413,Residential,Franklin,2021-10-18,Google,1
+414,Customer 0414,Residential,Nashville,2022-11-24,Referral,0
+415,Customer 0415,Residential,Nolensville,2022-01-03,Referral,1
+416,Customer 0416,Residential,Nashville,2024-05-04,Google,1
+417,Customer 0417,Residential,Nashville,2021-10-29,Google,1
+418,Customer 0418,Residential,Nolensville,2023-10-10,Direct Mail,0
+419,Customer 0419,Commercial,Nashville,2022-03-23,Google,1
+420,Customer 0420,Residential,Nashville,2024-01-04,Home Services Marketplace,0
+421,Customer 0421,Residential,Franklin,2021-02-25,Direct Mail,0
+422,Customer 0422,Residential,Spring Hill,2020-12-30,Google,1
+423,Customer 0423,Commercial,Franklin,2024-02-04,Organic,1
+424,Customer 0424,Residential,Spring Hill,2022-12-13,Referral,1
+425,Customer 0425,Residential,Nashville,2024-03-13,Google,0
+426,Customer 0426,Residential,Franklin,2021-10-07,Referral,0
+427,Customer 0427,Residential,Nolensville,2021-07-18,Home Services Marketplace,1
+428,Customer 0428,Residential,Nashville,2020-12-15,Organic,0
+429,Customer 0429,Residential,Franklin,2021-10-02,Google,1
+430,Customer 0430,Residential,Spring Hill,2022-06-15,Referral,0
+431,Customer 0431,Residential,Franklin,2021-11-19,Organic,0
+432,Customer 0432,Commercial,Nashville,2022-07-20,Referral,0
+433,Customer 0433,Residential,Spring Hill,2022-01-26,Google,0
+434,Customer 0434,Residential,Nashville,2020-12-31,Google,0
+435,Customer 0435,Residential,Spring Hill,2023-05-21,Home Services Marketplace,1
+436,Customer 0436,Residential,Nashville,2021-11-20,Google,1
+437,Customer 0437,Residential,Brentwood,2024-06-14,Referral,1
+438,Customer 0438,Commercial,Nashville,2024-02-11,Google,0
+439,Customer 0439,Commercial,Brentwood,2023-01-31,Home Services Marketplace,0
+440,Customer 0440,Residential,Franklin,2024-10-25,Google,0
+441,Customer 0441,Residential,Spring Hill,2023-06-29,Organic,0
+442,Customer 0442,Residential,Nolensville,2021-05-24,Google,1
+443,Customer 0443,Residential,Spring Hill,2021-05-18,Direct Mail,0
+444,Customer 0444,Residential,Franklin,2021-02-19,Referral,1
+445,Customer 0445,Residential,Franklin,2024-02-03,Referral,1
+446,Customer 0446,Residential,Franklin,2021-07-29,Google,0
+447,Customer 0447,Residential,Spring Hill,2023-01-15,Direct Mail,0
+448,Customer 0448,Residential,Nashville,2021-10-29,Google,0
+449,Customer 0449,Residential,Nashville,2022-06-16,Google,1
+450,Customer 0450,Residential,Nashville,2022-10-28,Home Services Marketplace,0
+451,Customer 0451,Commercial,Franklin,2024-01-30,Home Services Marketplace,1
+452,Customer 0452,Residential,Spring Hill,2023-11-30,Organic,0
+453,Customer 0453,Residential,Franklin,2022-03-07,Home Services Marketplace,0
+454,Customer 0454,Residential,Franklin,2022-10-09,Referral,1
+455,Customer 0455,Residential,Spring Hill,2022-12-31,Google,1
+456,Customer 0456,Residential,Nashville,2021-04-23,Organic,1
+457,Customer 0457,Residential,Nashville,2024-05-16,Referral,0
+458,Customer 0458,Residential,Spring Hill,2020-09-10,Referral,0
+459,Customer 0459,Residential,Nashville,2021-10-29,Google,0
+460,Customer 0460,Residential,Franklin,2022-02-24,Referral,0
+461,Customer 0461,Residential,Franklin,2021-06-25,Organic,0
+462,Customer 0462,Commercial,Nashville,2022-10-08,Referral,1
+463,Customer 0463,Residential,Spring Hill,2022-12-05,Organic,0
+464,Customer 0464,Residential,Nashville,2022-03-04,Google,1
+465,Customer 0465,Residential,Nashville,2022-04-27,Referral,0
+466,Customer 0466,Commercial,Nashville,2024-03-11,Google,0
+467,Customer 0467,Residential,Brentwood,2021-07-09,Organic,0
+468,Customer 0468,Residential,Nashville,2022-02-13,Referral,0
+469,Customer 0469,Residential,Brentwood,2024-11-18,Referral,1
+470,Customer 0470,Commercial,Brentwood,2021-09-14,Google,0
+471,Customer 0471,Residential,Spring Hill,2021-06-13,Google,0
+472,Customer 0472,Commercial,Franklin,2020-08-16,Referral,0
+473,Customer 0473,Residential,Nashville,2022-04-14,Google,1
+474,Customer 0474,Residential,Brentwood,2022-11-05,Google,1
+475,Customer 0475,Residential,Brentwood,2021-01-18,Google,1
+476,Customer 0476,Residential,Nashville,2024-02-16,Referral,1
+477,Customer 0477,Residential,Nashville,2021-07-19,Direct Mail,0
+478,Customer 0478,Residential,Spring Hill,2024-08-17,Organic,0
+479,Customer 0479,Residential,Franklin,2021-04-06,Referral,0
+480,Customer 0480,Commercial,Franklin,2022-05-26,Direct Mail,0
+481,Customer 0481,Residential,Franklin,2020-08-24,Home Services Marketplace,0
+482,Customer 0482,Residential,Brentwood,2023-06-30,Organic,1
+483,Customer 0483,Residential,Nashville,2021-11-06,Google,0
+484,Customer 0484,Commercial,Spring Hill,2020-08-26,Google,0
+485,Customer 0485,Residential,Nashville,2023-03-14,Referral,1
+486,Customer 0486,Commercial,Franklin,2020-12-06,Google,0
+487,Customer 0487,Residential,Nashville,2022-11-06,Home Services Marketplace,0
+488,Customer 0488,Residential,Franklin,2020-08-22,Home Services Marketplace,1
+489,Customer 0489,Residential,Nashville,2020-12-21,Google,0
+490,Customer 0490,Residential,Spring Hill,2020-10-14,Referral,0
+491,Customer 0491,Residential,Nashville,2021-10-28,Organic,0
+492,Customer 0492,Residential,Nashville,2021-09-08,Google,0
+493,Customer 0493,Commercial,Nashville,2023-09-17,Organic,0
+494,Customer 0494,Residential,Nashville,2020-12-14,Referral,0
+495,Customer 0495,Residential,Brentwood,2021-11-21,Direct Mail,0
+496,Customer 0496,Residential,Nashville,2022-04-23,Referral,0
+497,Customer 0497,Commercial,Nashville,2023-03-06,Google,0
+498,Customer 0498,Residential,Nashville,2021-04-27,Referral,0
+499,Customer 0499,Residential,Franklin,2024-10-07,Direct Mail,0
+500,Customer 0500,Commercial,Nashville,2023-12-28,Direct Mail,0
+501,Customer 0501,Residential,Nashville,2022-03-14,Google,0
+502,Customer 0502,Residential,Nolensville,2023-05-10,Home Services Marketplace,0
+503,Customer 0503,Residential,Nashville,2024-05-17,Direct Mail,0
+504,Customer 0504,Residential,Nashville,2021-05-19,Referral,0
+505,Customer 0505,Commercial,Franklin,2022-02-24,Referral,0
+506,Customer 0506,Residential,Nashville,2024-01-25,Organic,0
+507,Customer 0507,Residential,Brentwood,2024-11-24,Organic,0
+508,Customer 0508,Residential,Nolensville,2020-09-24,Google,0
+509,Customer 0509,Residential,Brentwood,2022-09-14,Home Services Marketplace,0
+510,Customer 0510,Residential,Franklin,2021-03-23,Google,1
+511,Customer 0511,Residential,Spring Hill,2023-08-02,Google,1
+512,Customer 0512,Residential,Franklin,2023-06-25,Direct Mail,0
+513,Customer 0513,Residential,Nashville,2024-11-29,Google,1
+514,Customer 0514,Residential,Franklin,2021-03-26,Google,1
+515,Customer 0515,Residential,Nashville,2022-02-27,Direct Mail,0
+516,Customer 0516,Residential,Spring Hill,2021-02-08,Google,1
+517,Customer 0517,Residential,Spring Hill,2021-07-13,Google,0
+518,Customer 0518,Residential,Spring Hill,2022-06-05,Organic,0
+519,Customer 0519,Residential,Brentwood,2021-11-24,Direct Mail,1
+520,Customer 0520,Residential,Nolensville,2023-10-02,Organic,0
+521,Customer 0521,Residential,Brentwood,2024-07-08,Referral,0
+522,Customer 0522,Residential,Franklin,2021-10-24,Google,0
+523,Customer 0523,Commercial,Nolensville,2023-11-04,Referral,1
+524,Customer 0524,Residential,Nashville,2022-01-22,Referral,0
+525,Customer 0525,Residential,Brentwood,2022-03-27,Google,1
+526,Customer 0526,Residential,Franklin,2022-06-08,Google,0
+527,Customer 0527,Residential,Franklin,2021-11-04,Referral,0
+528,Customer 0528,Residential,Nolensville,2022-10-04,Google,0
+529,Customer 0529,Residential,Nashville,2024-07-26,Google,0
+530,Customer 0530,Residential,Franklin,2024-08-21,Direct Mail,0
+531,Customer 0531,Commercial,Nashville,2024-10-19,Google,0
+532,Customer 0532,Residential,Nashville,2021-05-19,Direct Mail,0
+533,Customer 0533,Residential,Brentwood,2022-10-31,Referral,0
+534,Customer 0534,Residential,Spring Hill,2024-07-11,Organic,0
+535,Customer 0535,Residential,Brentwood,2021-04-24,Home Services Marketplace,1
+536,Customer 0536,Commercial,Nashville,2022-10-10,Referral,1
+537,Customer 0537,Residential,Brentwood,2024-12-15,Organic,0
+538,Customer 0538,Residential,Spring Hill,2020-12-11,Referral,1
+539,Customer 0539,Residential,Franklin,2023-08-04,Referral,1
+540,Customer 0540,Residential,Nashville,2020-11-29,Organic,0
+541,Customer 0541,Residential,Nashville,2021-07-12,Organic,0
+542,Customer 0542,Residential,Spring Hill,2023-10-27,Google,0
+543,Customer 0543,Residential,Brentwood,2021-03-17,Organic,0
+544,Customer 0544,Residential,Nashville,2022-09-21,Referral,0
+545,Customer 0545,Residential,Franklin,2020-08-16,Google,1
+546,Customer 0546,Residential,Franklin,2020-11-15,Referral,0
+547,Customer 0547,Residential,Brentwood,2023-03-07,Google,0
+548,Customer 0548,Commercial,Spring Hill,2022-01-20,Google,1
+549,Customer 0549,Residential,Nashville,2021-08-29,Home Services Marketplace,0
+550,Customer 0550,Residential,Spring Hill,2022-08-01,Referral,0
+551,Customer 0551,Residential,Nashville,2021-05-15,Organic,0
+552,Customer 0552,Residential,Nolensville,2022-08-23,Referral,1
+553,Customer 0553,Residential,Nashville,2021-12-17,Referral,1
+554,Customer 0554,Residential,Nolensville,2021-01-03,Google,0
+555,Customer 0555,Residential,Franklin,2022-08-30,Direct Mail,1
+556,Customer 0556,Residential,Franklin,2023-08-13,Google,1
+557,Customer 0557,Residential,Nashville,2022-06-15,Home Services Marketplace,1
+558,Customer 0558,Residential,Nashville,2023-11-28,Google,0
+559,Customer 0559,Residential,Franklin,2024-10-03,Home Services Marketplace,0
+560,Customer 0560,Residential,Nashville,2020-11-30,Organic,0
+561,Customer 0561,Residential,Nashville,2023-02-10,Google,1
+562,Customer 0562,Residential,Spring Hill,2023-11-29,Direct Mail,1
+563,Customer 0563,Commercial,Nashville,2022-04-17,Direct Mail,0
+564,Customer 0564,Residential,Brentwood,2022-10-02,Direct Mail,0
+565,Customer 0565,Residential,Franklin,2022-11-04,Referral,0
+566,Customer 0566,Residential,Brentwood,2022-12-17,Referral,0
+567,Customer 0567,Residential,Franklin,2020-12-04,Referral,0
+568,Customer 0568,Commercial,Nolensville,2022-11-24,Google,1
+569,Customer 0569,Residential,Nashville,2020-10-26,Google,0
+570,Customer 0570,Commercial,Nashville,2021-09-23,Organic,0
+571,Customer 0571,Residential,Nashville,2023-09-08,Referral,0
+572,Customer 0572,Residential,Nolensville,2021-04-22,Direct Mail,0
+573,Customer 0573,Residential,Nashville,2022-03-28,Direct Mail,0
+574,Customer 0574,Residential,Brentwood,2024-01-13,Organic,0
+575,Customer 0575,Residential,Franklin,2021-11-29,Referral,0
+576,Customer 0576,Residential,Spring Hill,2021-05-18,Direct Mail,0
+577,Customer 0577,Residential,Franklin,2024-07-23,Direct Mail,0
+578,Customer 0578,Residential,Brentwood,2022-08-31,Google,0
+579,Customer 0579,Residential,Brentwood,2024-02-17,Google,0
+580,Customer 0580,Residential,Franklin,2021-07-06,Organic,0
+581,Customer 0581,Commercial,Spring Hill,2021-04-12,Referral,0
+582,Customer 0582,Residential,Nashville,2024-11-28,Google,0
+583,Customer 0583,Residential,Brentwood,2023-05-15,Google,1
+584,Customer 0584,Residential,Nolensville,2023-12-21,Google,0
+585,Customer 0585,Residential,Nashville,2023-11-25,Organic,0
+586,Customer 0586,Residential,Nashville,2022-10-02,Google,0
+587,Customer 0587,Residential,Spring Hill,2023-08-12,Direct Mail,1
+588,Customer 0588,Residential,Nashville,2024-07-10,Organic,0
+589,Customer 0589,Residential,Spring Hill,2024-06-14,Referral,1
+590,Customer 0590,Residential,Franklin,2021-05-28,Google,1
+591,Customer 0591,Residential,Nashville,2022-07-18,Organic,0
+592,Customer 0592,Commercial,Nashville,2024-06-10,Home Services Marketplace,0
+593,Customer 0593,Residential,Spring Hill,2021-02-04,Home Services Marketplace,1
+594,Customer 0594,Residential,Franklin,2024-07-23,Organic,0
+595,Customer 0595,Residential,Nashville,2021-04-15,Google,1
+596,Customer 0596,Residential,Spring Hill,2023-10-25,Referral,1
+597,Customer 0597,Residential,Nolensville,2022-09-29,Direct Mail,0
+598,Customer 0598,Residential,Nashville,2021-10-19,Home Services Marketplace,0
+599,Customer 0599,Commercial,Franklin,2023-02-12,Referral,0
+600,Customer 0600,Residential,Nolensville,2021-02-10,Organic,0
+601,Customer 0601,Commercial,Franklin,2024-09-04,Google,0
+602,Customer 0602,Residential,Nashville,2021-08-01,Organic,0
+603,Customer 0603,Residential,Spring Hill,2020-08-21,Google,0
+604,Customer 0604,Residential,Brentwood,2022-06-14,Referral,0
+605,Customer 0605,Commercial,Franklin,2022-07-22,Google,0
+606,Customer 0606,Residential,Brentwood,2020-08-24,Organic,0
+607,Customer 0607,Residential,Nolensville,2024-07-07,Google,0
+608,Customer 0608,Residential,Franklin,2024-02-11,Organic,1
+609,Customer 0609,Residential,Nashville,2024-12-12,Direct Mail,0
+610,Customer 0610,Residential,Franklin,2024-05-27,Google,0
+611,Customer 0611,Residential,Nashville,2021-11-12,Referral,0
+612,Customer 0612,Residential,Nashville,2021-11-13,Google,0
+613,Customer 0613,Residential,Brentwood,2022-10-26,Google,0
+614,Customer 0614,Residential,Franklin,2020-11-29,Direct Mail,0
+615,Customer 0615,Commercial,Spring Hill,2021-10-08,Referral,1
+616,Customer 0616,Residential,Brentwood,2023-06-21,Google,0
+617,Customer 0617,Residential,Franklin,2022-07-16,Google,0
+618,Customer 0618,Residential,Nashville,2022-12-14,Google,0
+619,Customer 0619,Residential,Nashville,2021-08-24,Organic,1
+620,Customer 0620,Residential,Franklin,2024-12-09,Direct Mail,1
+621,Customer 0621,Residential,Nashville,2023-02-17,Referral,0
+622,Customer 0622,Residential,Franklin,2021-04-29,Direct Mail,0
+623,Customer 0623,Residential,Nashville,2021-01-29,Google,0
+624,Customer 0624,Commercial,Nashville,2023-03-10,Google,0
+625,Customer 0625,Residential,Brentwood,2021-09-30,Home Services Marketplace,0
+626,Customer 0626,Residential,Nashville,2022-10-10,Referral,0
+627,Customer 0627,Residential,Spring Hill,2021-12-01,Google,0
+628,Customer 0628,Residential,Nolensville,2020-11-24,Referral,1
+629,Customer 0629,Residential,Brentwood,2023-05-06,Home Services Marketplace,0
+630,Customer 0630,Residential,Nashville,2022-09-07,Organic,0
+631,Customer 0631,Residential,Nashville,2023-07-24,Organic,0
+632,Customer 0632,Residential,Brentwood,2024-07-24,Referral,0
+633,Customer 0633,Residential,Brentwood,2021-12-24,Referral,1
+634,Customer 0634,Residential,Spring Hill,2021-12-05,Google,0
+635,Customer 0635,Residential,Spring Hill,2021-12-19,Organic,1
+636,Customer 0636,Residential,Spring Hill,2023-08-02,Organic,1
+637,Customer 0637,Residential,Franklin,2024-09-23,Referral,0
+638,Customer 0638,Residential,Brentwood,2020-10-03,Google,0
+639,Customer 0639,Residential,Nolensville,2024-06-04,Google,0
+640,Customer 0640,Residential,Franklin,2021-09-21,Organic,0
+641,Customer 0641,Residential,Nashville,2022-05-19,Home Services Marketplace,0
+642,Customer 0642,Residential,Brentwood,2023-01-16,Direct Mail,0
+643,Customer 0643,Residential,Franklin,2024-06-30,Google,1
+644,Customer 0644,Residential,Spring Hill,2023-03-25,Referral,1
+645,Customer 0645,Residential,Nolensville,2023-01-09,Referral,0
+646,Customer 0646,Residential,Franklin,2023-03-10,Google,0
+647,Customer 0647,Residential,Nashville,2024-11-06,Home Services Marketplace,1
+648,Customer 0648,Residential,Brentwood,2024-01-21,Direct Mail,0
+649,Customer 0649,Residential,Nolensville,2021-11-18,Google,0
+650,Customer 0650,Commercial,Franklin,2023-09-05,Home Services Marketplace,1
+651,Customer 0651,Residential,Brentwood,2021-04-16,Referral,0
+652,Customer 0652,Residential,Nashville,2023-11-14,Referral,0
+653,Customer 0653,Residential,Franklin,2023-10-10,Google,0
+654,Customer 0654,Residential,Nolensville,2024-08-16,Referral,1
+655,Customer 0655,Residential,Nolensville,2022-12-04,Google,0
+656,Customer 0656,Residential,Franklin,2022-03-26,Referral,0
+657,Customer 0657,Residential,Brentwood,2021-07-20,Referral,0
+658,Customer 0658,Residential,Nashville,2022-05-30,Organic,1
+659,Customer 0659,Residential,Nolensville,2023-04-23,Direct Mail,0
+660,Customer 0660,Residential,Brentwood,2023-03-22,Google,0
+661,Customer 0661,Residential,Nashville,2021-02-01,Google,1
+662,Customer 0662,Residential,Franklin,2021-10-02,Referral,0
+663,Customer 0663,Residential,Nashville,2021-02-01,Direct Mail,1
+664,Customer 0664,Residential,Spring Hill,2024-01-16,Referral,1
+665,Customer 0665,Residential,Nashville,2022-06-13,Organic,0
+666,Customer 0666,Commercial,Spring Hill,2022-04-05,Google,0
+667,Customer 0667,Commercial,Nolensville,2022-02-21,Organic,0
+668,Customer 0668,Residential,Franklin,2020-12-29,Home Services Marketplace,0
+669,Customer 0669,Residential,Franklin,2024-10-20,Home Services Marketplace,1
+670,Customer 0670,Residential,Nashville,2023-09-19,Referral,0
+671,Customer 0671,Residential,Nashville,2020-10-24,Home Services Marketplace,1
+672,Customer 0672,Residential,Franklin,2021-10-07,Google,0
+673,Customer 0673,Residential,Nolensville,2022-12-02,Referral,0
+674,Customer 0674,Residential,Nolensville,2022-07-03,Referral,0
+675,Customer 0675,Residential,Spring Hill,2021-04-24,Organic,0
+676,Customer 0676,Commercial,Nashville,2022-06-15,Google,0
+677,Customer 0677,Residential,Spring Hill,2024-04-26,Home Services Marketplace,0
+678,Customer 0678,Residential,Nashville,2021-09-05,Organic,0
+679,Customer 0679,Residential,Spring Hill,2022-07-30,Google,1
+680,Customer 0680,Residential,Nashville,2023-10-26,Home Services Marketplace,0
+681,Customer 0681,Residential,Brentwood,2021-08-18,Referral,1
+682,Customer 0682,Residential,Nashville,2023-05-10,Referral,1
+683,Customer 0683,Residential,Spring Hill,2021-03-02,Home Services Marketplace,1
+684,Customer 0684,Residential,Nashville,2022-09-02,Direct Mail,0
+685,Customer 0685,Residential,Spring Hill,2024-04-07,Organic,0
+686,Customer 0686,Residential,Nashville,2023-03-04,Home Services Marketplace,0
+687,Customer 0687,Residential,Nolensville,2022-03-26,Google,0
+688,Customer 0688,Residential,Brentwood,2022-11-15,Referral,0
+689,Customer 0689,Commercial,Brentwood,2024-06-15,Referral,0
+690,Customer 0690,Residential,Nolensville,2022-11-28,Referral,0
+691,Customer 0691,Residential,Franklin,2020-08-20,Home Services Marketplace,1
+692,Customer 0692,Commercial,Nashville,2021-06-01,Organic,0
+693,Customer 0693,Residential,Franklin,2021-12-24,Referral,1
+694,Customer 0694,Residential,Spring Hill,2022-03-15,Google,0
+695,Customer 0695,Residential,Nolensville,2021-09-26,Google,0
+696,Customer 0696,Residential,Spring Hill,2021-02-24,Organic,0
+697,Customer 0697,Residential,Nashville,2022-05-26,Google,0
+698,Customer 0698,Residential,Spring Hill,2022-06-02,Google,0
+699,Customer 0699,Residential,Spring Hill,2021-02-11,Direct Mail,0
+700,Customer 0700,Residential,Spring Hill,2023-06-10,Google,1
+701,Customer 0701,Residential,Franklin,2021-04-02,Direct Mail,1
+702,Customer 0702,Residential,Nashville,2023-04-07,Organic,0
+703,Customer 0703,Residential,Nolensville,2024-06-19,Organic,1
+704,Customer 0704,Residential,Nashville,2024-03-26,Organic,0
+705,Customer 0705,Residential,Franklin,2024-12-06,Organic,1
+706,Customer 0706,Commercial,Nolensville,2022-08-11,Organic,0
+707,Customer 0707,Residential,Franklin,2024-06-23,Organic,0
+708,Customer 0708,Residential,Nashville,2023-04-20,Google,0
+709,Customer 0709,Residential,Nolensville,2024-03-25,Organic,0
+710,Customer 0710,Residential,Brentwood,2021-10-26,Google,0
+711,Customer 0711,Residential,Brentwood,2020-12-04,Google,0
+712,Customer 0712,Commercial,Nolensville,2021-07-10,Organic,0
+713,Customer 0713,Residential,Spring Hill,2024-05-31,Google,0
+714,Customer 0714,Residential,Nashville,2023-01-03,Direct Mail,0
+715,Customer 0715,Residential,Nashville,2023-06-04,Organic,0
+716,Customer 0716,Residential,Nashville,2020-12-07,Organic,1
+717,Customer 0717,Residential,Nolensville,2021-04-14,Home Services Marketplace,0
+718,Customer 0718,Residential,Nashville,2023-12-02,Organic,1
+719,Customer 0719,Residential,Nashville,2023-08-20,Referral,0
+720,Customer 0720,Residential,Nashville,2021-08-24,Google,0
+721,Customer 0721,Residential,Spring Hill,2022-12-14,Direct Mail,0
+722,Customer 0722,Residential,Nashville,2021-10-15,Referral,0
+723,Customer 0723,Residential,Franklin,2022-05-03,Direct Mail,1
+724,Customer 0724,Residential,Nolensville,2024-08-06,Google,0
+725,Customer 0725,Commercial,Nashville,2022-09-29,Referral,1
+726,Customer 0726,Residential,Brentwood,2022-08-25,Referral,1
+727,Customer 0727,Residential,Franklin,2021-12-17,Organic,1
+728,Customer 0728,Residential,Nashville,2022-02-09,Direct Mail,1
+729,Customer 0729,Residential,Spring Hill,2023-02-22,Referral,0
+730,Customer 0730,Residential,Brentwood,2021-02-27,Organic,0
+731,Customer 0731,Residential,Nashville,2023-08-22,Google,0
+732,Customer 0732,Residential,Nashville,2022-06-08,Organic,1
+733,Customer 0733,Residential,Nashville,2021-04-15,Organic,1
+734,Customer 0734,Residential,Nashville,2021-01-16,Google,0
+735,Customer 0735,Residential,Franklin,2022-01-28,Home Services Marketplace,1
+736,Customer 0736,Residential,Brentwood,2024-04-07,Organic,0
+737,Customer 0737,Residential,Spring Hill,2024-04-25,Home Services Marketplace,1
+738,Customer 0738,Residential,Nashville,2023-06-14,Referral,1
+739,Customer 0739,Commercial,Nashville,2021-06-16,Google,0
+740,Customer 0740,Residential,Franklin,2022-03-05,Home Services Marketplace,0
+741,Customer 0741,Residential,Nashville,2020-08-22,Google,1
+742,Customer 0742,Residential,Brentwood,2023-09-12,Organic,1
+743,Customer 0743,Residential,Nashville,2024-11-27,Google,0
+744,Customer 0744,Residential,Franklin,2024-02-19,Google,1
+745,Customer 0745,Residential,Spring Hill,2020-12-21,Organic,0
+746,Customer 0746,Residential,Franklin,2022-08-23,Direct Mail,0
+747,Customer 0747,Residential,Nashville,2021-10-09,Referral,0
+748,Customer 0748,Commercial,Franklin,2023-12-21,Google,0
+749,Customer 0749,Residential,Franklin,2022-09-23,Google,0
+750,Customer 0750,Residential,Franklin,2023-03-27,Google,0
+751,Customer 0751,Residential,Franklin,2023-11-08,Google,1
+752,Customer 0752,Residential,Nolensville,2023-08-14,Referral,0
+753,Customer 0753,Residential,Brentwood,2020-08-23,Home Services Marketplace,1
+754,Customer 0754,Residential,Nolensville,2023-08-08,Google,0
+755,Customer 0755,Residential,Spring Hill,2021-12-09,Referral,0
+756,Customer 0756,Residential,Nolensville,2023-02-05,Google,1
+757,Customer 0757,Residential,Brentwood,2020-11-24,Google,0
+758,Customer 0758,Commercial,Nashville,2022-08-16,Referral,0
+759,Customer 0759,Commercial,Nashville,2020-12-26,Google,1
+760,Customer 0760,Residential,Nashville,2022-01-23,Referral,0
+761,Customer 0761,Residential,Spring Hill,2020-10-13,Google,0
+762,Customer 0762,Residential,Nashville,2022-10-07,Google,1
+763,Customer 0763,Residential,Franklin,2024-03-30,Google,1
+764,Customer 0764,Residential,Nashville,2022-10-10,Organic,1
+765,Customer 0765,Residential,Nolensville,2023-06-15,Google,0
+766,Customer 0766,Residential,Spring Hill,2020-08-28,Referral,1
+767,Customer 0767,Residential,Nashville,2022-05-13,Google,1
+768,Customer 0768,Residential,Nashville,2020-08-28,Google,1
+769,Customer 0769,Residential,Nashville,2024-04-21,Google,1
+770,Customer 0770,Residential,Nolensville,2021-01-09,Organic,0
+771,Customer 0771,Residential,Nashville,2023-02-20,Google,1
+772,Customer 0772,Commercial,Brentwood,2022-10-03,Referral,0
+773,Customer 0773,Residential,Brentwood,2024-01-01,Google,0
+774,Customer 0774,Residential,Franklin,2020-10-12,Referral,0
+775,Customer 0775,Residential,Nashville,2024-03-11,Google,1
+776,Customer 0776,Residential,Nashville,2023-09-24,Google,0
+777,Customer 0777,Residential,Nolensville,2021-06-11,Direct Mail,0
+778,Customer 0778,Residential,Nashville,2024-07-22,Google,1
+779,Customer 0779,Commercial,Nashville,2022-06-28,Home Services Marketplace,0
+780,Customer 0780,Residential,Nashville,2023-02-12,Google,0
+781,Customer 0781,Residential,Spring Hill,2021-10-04,Referral,1
+782,Customer 0782,Residential,Brentwood,2022-10-31,Organic,0
+783,Customer 0783,Residential,Nashville,2023-12-05,Google,0
+784,Customer 0784,Residential,Franklin,2021-07-14,Organic,0
+785,Customer 0785,Residential,Nashville,2022-09-01,Home Services Marketplace,0
+786,Customer 0786,Residential,Franklin,2022-10-30,Google,0
+787,Customer 0787,Commercial,Nashville,2022-01-11,Google,0
+788,Customer 0788,Residential,Spring Hill,2024-11-13,Direct Mail,0
+789,Customer 0789,Residential,Nolensville,2021-12-03,Home Services Marketplace,0
+790,Customer 0790,Residential,Franklin,2023-03-05,Referral,0
+791,Customer 0791,Residential,Nashville,2023-10-01,Google,1
+792,Customer 0792,Residential,Nolensville,2022-05-01,Referral,0
+793,Customer 0793,Commercial,Nolensville,2024-01-31,Google,0
+794,Customer 0794,Residential,Brentwood,2020-11-04,Google,1
+795,Customer 0795,Residential,Spring Hill,2022-10-19,Referral,1
+796,Customer 0796,Residential,Nolensville,2023-12-28,Google,0
+797,Customer 0797,Residential,Nashville,2022-12-19,Direct Mail,1
+798,Customer 0798,Residential,Nashville,2021-10-17,Referral,1
+799,Customer 0799,Residential,Franklin,2022-03-20,Referral,0
+800,Customer 0800,Residential,Nashville,2024-08-29,Google,0
+801,Customer 0801,Residential,Nashville,2024-12-21,Google,0
+802,Customer 0802,Residential,Brentwood,2023-01-25,Organic,0
+803,Customer 0803,Residential,Spring Hill,2023-03-01,Google,0
+804,Customer 0804,Residential,Nashville,2024-03-07,Home Services Marketplace,0
+805,Customer 0805,Residential,Nolensville,2024-07-27,Referral,1
+806,Customer 0806,Residential,Spring Hill,2024-05-30,Google,1
+807,Customer 0807,Commercial,Nashville,2020-11-14,Direct Mail,0
+808,Customer 0808,Commercial,Nolensville,2021-05-03,Google,1
+809,Customer 0809,Residential,Brentwood,2021-07-15,Home Services Marketplace,0
+810,Customer 0810,Residential,Nashville,2023-12-29,Referral,0
+811,Customer 0811,Residential,Nolensville,2023-12-25,Organic,1
+812,Customer 0812,Commercial,Spring Hill,2022-10-13,Home Services Marketplace,1
+813,Customer 0813,Residential,Nolensville,2023-12-16,Organic,0
+814,Customer 0814,Commercial,Spring Hill,2023-09-27,Organic,0
+815,Customer 0815,Residential,Nashville,2023-02-13,Organic,1
+816,Customer 0816,Commercial,Nashville,2024-01-14,Organic,0
+817,Customer 0817,Residential,Spring Hill,2021-03-21,Organic,0
+818,Customer 0818,Residential,Spring Hill,2023-06-28,Google,0
+819,Customer 0819,Residential,Brentwood,2024-05-15,Organic,0
+820,Customer 0820,Residential,Nashville,2022-08-16,Direct Mail,1
+821,Customer 0821,Residential,Spring Hill,2022-11-08,Referral,1
+822,Customer 0822,Residential,Franklin,2021-09-26,Organic,0
+823,Customer 0823,Residential,Brentwood,2024-07-25,Home Services Marketplace,1
+824,Customer 0824,Residential,Nashville,2023-07-07,Direct Mail,0
+825,Customer 0825,Residential,Nashville,2022-11-15,Google,0
+826,Customer 0826,Commercial,Nashville,2024-06-15,Google,1
+827,Customer 0827,Commercial,Spring Hill,2021-01-10,Google,0
+828,Customer 0828,Residential,Spring Hill,2022-07-17,Google,1
+829,Customer 0829,Residential,Nashville,2023-11-29,Referral,0
+830,Customer 0830,Commercial,Franklin,2021-12-12,Google,1
+831,Customer 0831,Residential,Nashville,2024-09-12,Referral,0
+832,Customer 0832,Residential,Franklin,2024-09-02,Referral,0
+833,Customer 0833,Residential,Franklin,2021-04-07,Organic,0
+834,Customer 0834,Residential,Franklin,2023-10-26,Google,0
+835,Customer 0835,Residential,Nashville,2024-04-30,Google,0
+836,Customer 0836,Residential,Franklin,2021-04-09,Google,0
+837,Customer 0837,Residential,Brentwood,2022-11-24,Home Services Marketplace,0
+838,Customer 0838,Residential,Franklin,2023-07-02,Referral,0
+839,Customer 0839,Residential,Nashville,2021-10-24,Google,0
+840,Customer 0840,Residential,Nolensville,2024-06-30,Organic,0
+841,Customer 0841,Residential,Nolensville,2020-09-25,Referral,1
+842,Customer 0842,Residential,Franklin,2022-01-17,Referral,0
+843,Customer 0843,Residential,Franklin,2022-04-25,Referral,0
+844,Customer 0844,Residential,Nashville,2022-10-06,Direct Mail,0
+845,Customer 0845,Residential,Brentwood,2022-01-29,Home Services Marketplace,1
+846,Customer 0846,Residential,Brentwood,2024-04-20,Direct Mail,0
+847,Customer 0847,Commercial,Franklin,2024-01-15,Direct Mail,0
+848,Customer 0848,Residential,Nolensville,2022-08-08,Google,0
+849,Customer 0849,Residential,Brentwood,2021-06-17,Google,1
+850,Customer 0850,Residential,Brentwood,2020-11-24,Direct Mail,0
+851,Customer 0851,Residential,Nashville,2022-10-01,Referral,1
+852,Customer 0852,Residential,Spring Hill,2024-11-27,Home Services Marketplace,1
+853,Customer 0853,Residential,Brentwood,2022-08-16,Google,0
+854,Customer 0854,Residential,Nashville,2021-09-16,Organic,0
+855,Customer 0855,Commercial,Spring Hill,2021-10-27,Home Services Marketplace,1
+856,Customer 0856,Residential,Nolensville,2023-01-18,Home Services Marketplace,0
+857,Customer 0857,Residential,Nashville,2021-10-08,Organic,0
+858,Customer 0858,Residential,Nashville,2024-03-03,Organic,0
+859,Customer 0859,Residential,Brentwood,2022-10-04,Home Services Marketplace,0
+860,Customer 0860,Residential,Nashville,2020-10-17,Referral,0
+861,Customer 0861,Residential,Nashville,2023-01-31,Home Services Marketplace,0
+862,Customer 0862,Residential,Nashville,2022-03-22,Home Services Marketplace,0
+863,Customer 0863,Commercial,Brentwood,2023-09-13,Google,0
+864,Customer 0864,Residential,Spring Hill,2023-03-06,Google,0
+865,Customer 0865,Residential,Franklin,2023-12-04,Referral,1
+866,Customer 0866,Residential,Spring Hill,2022-04-05,Organic,0
+867,Customer 0867,Residential,Spring Hill,2022-02-01,Home Services Marketplace,0
+868,Customer 0868,Residential,Nashville,2022-09-18,Google,0
+869,Customer 0869,Residential,Spring Hill,2024-10-24,Google,1
+870,Customer 0870,Residential,Spring Hill,2024-08-26,Google,1
+871,Customer 0871,Commercial,Franklin,2021-01-09,Google,0
+872,Customer 0872,Residential,Franklin,2022-10-02,Organic,1
+873,Customer 0873,Residential,Nashville,2022-11-21,Referral,0
+874,Customer 0874,Commercial,Franklin,2022-04-26,Referral,0
+875,Customer 0875,Residential,Franklin,2023-07-12,Organic,0
+876,Customer 0876,Residential,Brentwood,2022-10-23,Google,0
+877,Customer 0877,Residential,Spring Hill,2023-10-11,Home Services Marketplace,0
+878,Customer 0878,Residential,Brentwood,2023-06-20,Organic,0
+879,Customer 0879,Residential,Franklin,2020-09-03,Organic,0
+880,Customer 0880,Residential,Franklin,2024-01-03,Organic,0
+881,Customer 0881,Residential,Nashville,2023-04-07,Organic,0
+882,Customer 0882,Residential,Brentwood,2022-11-12,Home Services Marketplace,0
+883,Customer 0883,Residential,Franklin,2023-04-14,Organic,0
+884,Customer 0884,Residential,Nolensville,2024-05-27,Google,0
+885,Customer 0885,Commercial,Spring Hill,2022-11-17,Referral,1
+886,Customer 0886,Residential,Brentwood,2021-02-20,Google,0
+887,Customer 0887,Commercial,Nashville,2021-05-21,Google,0
+888,Customer 0888,Residential,Nashville,2021-04-28,Google,1
+889,Customer 0889,Residential,Nashville,2024-08-28,Home Services Marketplace,1
+890,Customer 0890,Residential,Nolensville,2021-04-10,Google,0
+891,Customer 0891,Residential,Nashville,2022-03-10,Direct Mail,0
+892,Customer 0892,Residential,Nashville,2022-10-19,Organic,0
+893,Customer 0893,Commercial,Brentwood,2023-11-30,Referral,1
+894,Customer 0894,Residential,Brentwood,2021-05-25,Home Services Marketplace,1
+895,Customer 0895,Residential,Spring Hill,2022-02-18,Google,0
+896,Customer 0896,Residential,Nashville,2021-11-05,Google,0
+897,Customer 0897,Residential,Nashville,2023-07-12,Organic,1
+898,Customer 0898,Commercial,Franklin,2021-03-01,Home Services Marketplace,1
+899,Customer 0899,Residential,Brentwood,2023-09-22,Organic,1
+900,Customer 0900,Residential,Nashville,2023-02-13,Referral,0
+901,Customer 0901,Residential,Brentwood,2024-04-25,Referral,0
+902,Customer 0902,Residential,Spring Hill,2021-06-30,Google,1
+903,Customer 0903,Residential,Spring Hill,2021-02-27,Referral,1
+904,Customer 0904,Residential,Nashville,2024-02-18,Google,0
+905,Customer 0905,Residential,Nashville,2021-10-13,Home Services Marketplace,0
+906,Customer 0906,Residential,Spring Hill,2020-12-18,Google,0
+907,Customer 0907,Residential,Nashville,2023-12-26,Google,0
+908,Customer 0908,Residential,Nashville,2023-10-21,Organic,1
+909,Customer 0909,Residential,Nashville,2022-03-26,Home Services Marketplace,1
+910,Customer 0910,Residential,Nolensville,2022-07-18,Organic,1
+911,Customer 0911,Commercial,Franklin,2022-10-29,Google,0
+912,Customer 0912,Residential,Franklin,2024-11-24,Home Services Marketplace,0
+913,Customer 0913,Residential,Nolensville,2024-11-16,Organic,0
+914,Customer 0914,Residential,Brentwood,2021-02-01,Home Services Marketplace,0
+915,Customer 0915,Residential,Nashville,2022-02-26,Referral,0
+916,Customer 0916,Residential,Nashville,2023-04-22,Direct Mail,0
+917,Customer 0917,Residential,Franklin,2022-01-14,Google,1
+918,Customer 0918,Commercial,Spring Hill,2023-01-21,Direct Mail,1
+919,Customer 0919,Residential,Franklin,2024-01-20,Direct Mail,1
+920,Customer 0920,Residential,Spring Hill,2023-09-12,Google,0
+921,Customer 0921,Residential,Spring Hill,2024-11-08,Referral,1
+922,Customer 0922,Residential,Nashville,2021-04-30,Home Services Marketplace,0
+923,Customer 0923,Residential,Franklin,2020-08-26,Referral,0
+924,Customer 0924,Commercial,Nashville,2021-04-07,Google,0
+925,Customer 0925,Residential,Nolensville,2024-04-29,Referral,1
+926,Customer 0926,Residential,Franklin,2022-04-26,Organic,1
+927,Customer 0927,Residential,Nashville,2024-12-03,Google,1
+928,Customer 0928,Residential,Brentwood,2023-06-19,Organic,0
+929,Customer 0929,Residential,Brentwood,2024-05-22,Referral,0
+930,Customer 0930,Residential,Brentwood,2024-05-19,Referral,0
+931,Customer 0931,Residential,Brentwood,2022-01-16,Direct Mail,1
+932,Customer 0932,Residential,Franklin,2024-01-29,Google,0
+933,Customer 0933,Residential,Franklin,2022-04-13,Google,0
+934,Customer 0934,Residential,Nashville,2024-05-10,Home Services Marketplace,0
+935,Customer 0935,Residential,Brentwood,2024-06-21,Home Services Marketplace,0
+936,Customer 0936,Residential,Nashville,2023-07-17,Organic,1
+937,Customer 0937,Commercial,Franklin,2023-07-01,Referral,0
+938,Customer 0938,Residential,Nashville,2024-10-03,Home Services Marketplace,1
+939,Customer 0939,Residential,Franklin,2022-08-03,Organic,0
+940,Customer 0940,Residential,Nashville,2024-09-20,Google,1
+941,Customer 0941,Residential,Nashville,2023-02-18,Referral,1
+942,Customer 0942,Residential,Franklin,2020-11-12,Google,0
+943,Customer 0943,Residential,Nolensville,2022-09-24,Referral,1
+944,Customer 0944,Residential,Franklin,2021-02-09,Home Services Marketplace,0
+945,Customer 0945,Residential,Nolensville,2024-01-16,Google,0
+946,Customer 0946,Residential,Brentwood,2024-01-31,Google,1
+947,Customer 0947,Residential,Spring Hill,2021-10-14,Organic,0
+948,Customer 0948,Residential,Nashville,2022-12-19,Organic,0
+949,Customer 0949,Residential,Spring Hill,2020-11-24,Direct Mail,0
+950,Customer 0950,Commercial,Nashville,2024-05-05,Home Services Marketplace,0
+951,Customer 0951,Residential,Franklin,2021-04-21,Google,0
+952,Customer 0952,Residential,Brentwood,2020-09-03,Organic,1
+953,Customer 0953,Residential,Brentwood,2021-03-22,Home Services Marketplace,1
+954,Customer 0954,Residential,Franklin,2021-07-05,Google,1
+955,Customer 0955,Residential,Brentwood,2023-01-14,Organic,0
+956,Customer 0956,Residential,Brentwood,2021-11-05,Home Services Marketplace,0
+957,Customer 0957,Residential,Brentwood,2024-02-05,Referral,0
+958,Customer 0958,Residential,Franklin,2024-01-19,Google,0
+959,Customer 0959,Residential,Franklin,2023-06-02,Google,0
+960,Customer 0960,Residential,Nashville,2022-09-19,Home Services Marketplace,0
+961,Customer 0961,Residential,Nashville,2021-10-06,Referral,0
+962,Customer 0962,Residential,Spring Hill,2024-04-23,Direct Mail,0
+963,Customer 0963,Residential,Nolensville,2022-09-18,Referral,1
+964,Customer 0964,Residential,Franklin,2024-06-19,Home Services Marketplace,1
+965,Customer 0965,Residential,Spring Hill,2022-02-15,Referral,0
+966,Customer 0966,Residential,Brentwood,2023-01-24,Referral,0
+967,Customer 0967,Residential,Nashville,2022-06-06,Google,0
+968,Customer 0968,Residential,Nolensville,2020-12-16,Organic,1
+969,Customer 0969,Residential,Brentwood,2020-09-19,Organic,0
+970,Customer 0970,Residential,Nashville,2021-06-04,Direct Mail,1
+971,Customer 0971,Residential,Nashville,2021-01-15,Google,1
+972,Customer 0972,Residential,Spring Hill,2020-12-15,Organic,1
+973,Customer 0973,Residential,Franklin,2023-11-17,Google,1
+974,Customer 0974,Residential,Spring Hill,2022-05-31,Home Services Marketplace,0
+975,Customer 0975,Residential,Nashville,2020-09-24,Referral,0
+976,Customer 0976,Residential,Spring Hill,2021-09-04,Google,0
+977,Customer 0977,Residential,Spring Hill,2021-09-03,Direct Mail,0
+978,Customer 0978,Residential,Nashville,2022-01-01,Organic,0
+979,Customer 0979,Residential,Franklin,2021-09-11,Referral,0
+980,Customer 0980,Commercial,Franklin,2023-12-26,Organic,1
+981,Customer 0981,Residential,Nashville,2024-05-24,Referral,0
+982,Customer 0982,Commercial,Brentwood,2022-02-24,Home Services Marketplace,0
+983,Customer 0983,Residential,Franklin,2021-02-03,Organic,0
+984,Customer 0984,Commercial,Nashville,2023-04-30,Referral,0
+985,Customer 0985,Residential,Nashville,2021-01-19,Home Services Marketplace,1
+986,Customer 0986,Residential,Franklin,2021-11-27,Home Services Marketplace,0
+987,Customer 0987,Commercial,Brentwood,2021-06-06,Google,0
+988,Customer 0988,Residential,Nashville,2021-02-15,Referral,1
+989,Customer 0989,Commercial,Brentwood,2021-05-01,Direct Mail,0
+990,Customer 0990,Residential,Nashville,2021-05-28,Google,0
+991,Customer 0991,Residential,Nashville,2022-04-14,Referral,0
+992,Customer 0992,Residential,Spring Hill,2021-03-13,Organic,0
+993,Customer 0993,Residential,Nolensville,2022-08-10,Home Services Marketplace,0
+994,Customer 0994,Residential,Franklin,2024-02-29,Google,1
+995,Customer 0995,Residential,Nashville,2024-01-28,Direct Mail,0
+996,Customer 0996,Residential,Brentwood,2024-08-17,Organic,0
+997,Customer 0997,Residential,Nashville,2024-10-17,Referral,0
+998,Customer 0998,Residential,Franklin,2021-03-10,Organic,1
+999,Customer 0999,Residential,Spring Hill,2021-10-30,Referral,0
+1000,Customer 1000,Residential,Franklin,2021-01-27,Google,1
+1001,Customer 1001,Commercial,Brentwood,2022-10-21,Referral,1
+1002,Customer 1002,Residential,Nolensville,2021-11-18,Google,0
+1003,Customer 1003,Residential,Nolensville,2022-06-29,Home Services Marketplace,1
+1004,Customer 1004,Residential,Spring Hill,2021-05-06,Referral,1
+1005,Customer 1005,Residential,Brentwood,2023-11-16,Home Services Marketplace,0
+1006,Customer 1006,Residential,Spring Hill,2023-12-25,Direct Mail,0
+1007,Customer 1007,Commercial,Nashville,2020-11-08,Referral,0
+1008,Customer 1008,Residential,Franklin,2021-11-09,Google,0
+1009,Customer 1009,Residential,Nashville,2024-12-11,Google,0
+1010,Customer 1010,Residential,Brentwood,2024-02-12,Direct Mail,0
+1011,Customer 1011,Residential,Brentwood,2021-06-21,Organic,0
+1012,Customer 1012,Residential,Brentwood,2021-10-07,Referral,0
+1013,Customer 1013,Residential,Nashville,2022-01-11,Google,0
+1014,Customer 1014,Residential,Nashville,2022-02-22,Google,0
+1015,Customer 1015,Residential,Franklin,2023-01-07,Google,0
+1016,Customer 1016,Residential,Nashville,2022-12-15,Google,1
+1017,Customer 1017,Residential,Spring Hill,2022-04-25,Direct Mail,0
+1018,Customer 1018,Commercial,Nolensville,2024-12-04,Google,0
+1019,Customer 1019,Residential,Franklin,2021-05-17,Organic,1
+1020,Customer 1020,Commercial,Brentwood,2021-02-24,Home Services Marketplace,0
+1021,Customer 1021,Residential,Franklin,2024-05-04,Referral,0
+1022,Customer 1022,Residential,Franklin,2022-01-29,Home Services Marketplace,0
+1023,Customer 1023,Residential,Franklin,2022-06-24,Referral,0
+1024,Customer 1024,Residential,Nashville,2023-03-07,Referral,0
+1025,Customer 1025,Residential,Spring Hill,2020-08-22,Referral,0
+1026,Customer 1026,Residential,Nashville,2021-03-21,Organic,1
+1027,Customer 1027,Residential,Nashville,2024-05-24,Google,0
+1028,Customer 1028,Residential,Nolensville,2020-10-26,Home Services Marketplace,0
+1029,Customer 1029,Commercial,Brentwood,2020-10-15,Organic,0
+1030,Customer 1030,Residential,Nashville,2024-10-06,Google,0
+1031,Customer 1031,Residential,Nashville,2021-11-06,Google,0
+1032,Customer 1032,Commercial,Nolensville,2022-09-10,Referral,0
+1033,Customer 1033,Residential,Brentwood,2024-11-18,Referral,0
+1034,Customer 1034,Residential,Nashville,2020-12-08,Organic,0
+1035,Customer 1035,Residential,Nolensville,2021-01-17,Home Services Marketplace,0
+1036,Customer 1036,Residential,Franklin,2023-05-09,Home Services Marketplace,0
+1037,Customer 1037,Residential,Nashville,2020-09-07,Direct Mail,0
+1038,Customer 1038,Residential,Franklin,2024-10-20,Referral,0
+1039,Customer 1039,Residential,Franklin,2022-10-14,Home Services Marketplace,0
+1040,Customer 1040,Residential,Nolensville,2021-06-03,Google,1
+1041,Customer 1041,Commercial,Brentwood,2020-11-20,Organic,1
+1042,Customer 1042,Residential,Spring Hill,2021-11-12,Google,0
+1043,Customer 1043,Residential,Nashville,2022-10-07,Referral,0
+1044,Customer 1044,Residential,Spring Hill,2020-10-12,Organic,0
+1045,Customer 1045,Residential,Brentwood,2021-05-10,Home Services Marketplace,1
+1046,Customer 1046,Residential,Nashville,2021-07-08,Home Services Marketplace,0
+1047,Customer 1047,Residential,Nashville,2021-10-18,Home Services Marketplace,1
+1048,Customer 1048,Commercial,Spring Hill,2021-11-24,Referral,0
+1049,Customer 1049,Residential,Franklin,2024-08-07,Google,0
+1050,Customer 1050,Residential,Nashville,2023-02-14,Referral,1
+1051,Customer 1051,Residential,Brentwood,2023-05-19,Organic,0
+1052,Customer 1052,Residential,Spring Hill,2022-06-14,Google,1
+1053,Customer 1053,Residential,Brentwood,2024-02-14,Referral,1
+1054,Customer 1054,Residential,Franklin,2022-07-29,Google,1
+1055,Customer 1055,Residential,Nashville,2020-12-25,Organic,1
+1056,Customer 1056,Residential,Franklin,2024-03-22,Organic,0
+1057,Customer 1057,Residential,Nashville,2022-06-24,Referral,0
+1058,Customer 1058,Residential,Nashville,2023-12-29,Organic,1
+1059,Customer 1059,Residential,Nashville,2024-03-11,Home Services Marketplace,0
+1060,Customer 1060,Residential,Nashville,2021-06-18,Google,0
+1061,Customer 1061,Residential,Nashville,2022-02-18,Organic,0
+1062,Customer 1062,Residential,Nolensville,2020-08-30,Organic,0
+1063,Customer 1063,Residential,Spring Hill,2021-12-05,Home Services Marketplace,1
+1064,Customer 1064,Residential,Franklin,2024-02-22,Referral,0
+1065,Customer 1065,Residential,Nashville,2020-11-12,Home Services Marketplace,0
+1066,Customer 1066,Residential,Nashville,2024-06-20,Referral,0
+1067,Customer 1067,Residential,Franklin,2021-07-14,Organic,0
+1068,Customer 1068,Residential,Nolensville,2024-01-31,Google,0
+1069,Customer 1069,Residential,Spring Hill,2024-02-27,Organic,1
+1070,Customer 1070,Residential,Franklin,2023-10-01,Organic,0
+1071,Customer 1071,Residential,Nashville,2023-08-31,Google,0
+1072,Customer 1072,Commercial,Nashville,2022-12-14,Referral,0
+1073,Customer 1073,Commercial,Spring Hill,2024-10-02,Direct Mail,0
+1074,Customer 1074,Residential,Nashville,2022-01-20,Organic,0
+1075,Customer 1075,Residential,Nashville,2021-09-24,Referral,0
+1076,Customer 1076,Residential,Nashville,2022-12-05,Referral,0
+1077,Customer 1077,Residential,Spring Hill,2023-07-26,Referral,0
+1078,Customer 1078,Residential,Spring Hill,2022-12-31,Home Services Marketplace,0
+1079,Customer 1079,Residential,Franklin,2021-08-03,Google,0
+1080,Customer 1080,Residential,Spring Hill,2023-09-08,Google,0
+1081,Customer 1081,Residential,Brentwood,2023-12-06,Google,1
+1082,Customer 1082,Residential,Brentwood,2021-04-09,Google,0
+1083,Customer 1083,Residential,Nolensville,2022-04-11,Organic,0
+1084,Customer 1084,Residential,Franklin,2021-05-07,Home Services Marketplace,0
+1085,Customer 1085,Residential,Nashville,2021-10-05,Organic,0
+1086,Customer 1086,Residential,Nashville,2021-10-07,Google,0
+1087,Customer 1087,Commercial,Nashville,2022-01-29,Direct Mail,0
+1088,Customer 1088,Residential,Brentwood,2024-11-14,Home Services Marketplace,0
+1089,Customer 1089,Residential,Brentwood,2024-06-30,Google,0
+1090,Customer 1090,Residential,Brentwood,2022-04-11,Google,0
+1091,Customer 1091,Residential,Nolensville,2021-09-16,Home Services Marketplace,1
+1092,Customer 1092,Residential,Nashville,2023-06-30,Google,0
+1093,Customer 1093,Commercial,Brentwood,2021-08-19,Organic,1
+1094,Customer 1094,Residential,Nashville,2024-05-14,Google,1
+1095,Customer 1095,Commercial,Franklin,2021-02-20,Referral,0
+1096,Customer 1096,Residential,Nashville,2022-04-23,Direct Mail,0
+1097,Customer 1097,Residential,Brentwood,2021-12-30,Referral,1
+1098,Customer 1098,Residential,Nashville,2024-03-31,Direct Mail,0
+1099,Customer 1099,Residential,Franklin,2020-08-19,Organic,0
+1100,Customer 1100,Residential,Franklin,2024-09-25,Organic,1
+1101,Customer 1101,Commercial,Franklin,2022-04-10,Home Services Marketplace,1
+1102,Customer 1102,Residential,Franklin,2020-10-26,Direct Mail,0
+1103,Customer 1103,Residential,Nolensville,2022-08-04,Google,0
+1104,Customer 1104,Residential,Franklin,2024-07-04,Google,0
+1105,Customer 1105,Residential,Spring Hill,2023-12-01,Google,1
+1106,Customer 1106,Residential,Nolensville,2022-01-17,Google,0
+1107,Customer 1107,Residential,Nashville,2021-02-13,Home Services Marketplace,1
+1108,Customer 1108,Residential,Franklin,2022-08-03,Organic,0
+1109,Customer 1109,Residential,Nashville,2022-08-08,Referral,0
+1110,Customer 1110,Commercial,Brentwood,2022-10-01,Organic,1
+1111,Customer 1111,Residential,Franklin,2022-04-09,Google,1
+1112,Customer 1112,Residential,Franklin,2023-04-04,Referral,0
+1113,Customer 1113,Residential,Nolensville,2024-03-15,Home Services Marketplace,0
+1114,Customer 1114,Residential,Brentwood,2022-06-22,Home Services Marketplace,0
+1115,Customer 1115,Residential,Spring Hill,2022-02-15,Referral,0
+1116,Customer 1116,Residential,Nashville,2021-01-25,Organic,1
+1117,Customer 1117,Residential,Nashville,2021-05-30,Google,1
+1118,Customer 1118,Residential,Nashville,2021-08-11,Referral,0
+1119,Customer 1119,Residential,Nashville,2024-07-12,Organic,1
+1120,Customer 1120,Commercial,Brentwood,2022-09-24,Organic,0
+1121,Customer 1121,Residential,Franklin,2021-08-17,Google,0
+1122,Customer 1122,Residential,Nolensville,2022-03-16,Referral,1
+1123,Customer 1123,Residential,Nashville,2022-01-26,Google,0
+1124,Customer 1124,Residential,Nashville,2022-01-31,Organic,1
+1125,Customer 1125,Residential,Brentwood,2022-12-17,Google,0
+1126,Customer 1126,Residential,Nashville,2023-06-06,Home Services Marketplace,0
+1127,Customer 1127,Residential,Franklin,2021-09-09,Google,0
+1128,Customer 1128,Residential,Nashville,2024-06-21,Referral,0
+1129,Customer 1129,Residential,Brentwood,2021-09-16,Referral,0
+1130,Customer 1130,Residential,Spring Hill,2021-07-30,Direct Mail,0
+1131,Customer 1131,Residential,Franklin,2024-12-13,Google,0
+1132,Customer 1132,Residential,Franklin,2024-07-27,Referral,0
+1133,Customer 1133,Residential,Nashville,2022-02-05,Direct Mail,1
+1134,Customer 1134,Residential,Spring Hill,2021-10-02,Google,0
+1135,Customer 1135,Residential,Franklin,2022-04-07,Organic,0
+1136,Customer 1136,Commercial,Nolensville,2022-05-28,Organic,0
+1137,Customer 1137,Residential,Spring Hill,2022-04-10,Google,0
+1138,Customer 1138,Residential,Nashville,2023-09-28,Organic,0
+1139,Customer 1139,Residential,Nashville,2022-12-30,Referral,1
+1140,Customer 1140,Residential,Nashville,2023-08-02,Google,0
+1141,Customer 1141,Residential,Franklin,2023-01-22,Google,0
+1142,Customer 1142,Residential,Spring Hill,2022-12-29,Google,0
+1143,Customer 1143,Residential,Brentwood,2020-10-16,Organic,0
+1144,Customer 1144,Residential,Spring Hill,2023-11-10,Google,0
+1145,Customer 1145,Residential,Nashville,2023-09-10,Google,0
+1146,Customer 1146,Residential,Nashville,2024-02-07,Home Services Marketplace,0
+1147,Customer 1147,Residential,Nashville,2021-04-04,Referral,0
+1148,Customer 1148,Residential,Nashville,2024-09-27,Home Services Marketplace,0
+1149,Customer 1149,Residential,Franklin,2021-10-03,Home Services Marketplace,0
+1150,Customer 1150,Commercial,Franklin,2022-02-10,Google,0
+1151,Customer 1151,Residential,Nashville,2024-09-03,Referral,1
+1152,Customer 1152,Commercial,Franklin,2024-10-17,Referral,0
+1153,Customer 1153,Residential,Franklin,2023-12-31,Referral,1
+1154,Customer 1154,Residential,Nashville,2023-03-17,Organic,1
+1155,Customer 1155,Residential,Nashville,2021-09-20,Google,0
+1156,Customer 1156,Residential,Franklin,2023-12-05,Referral,1
+1157,Customer 1157,Residential,Nashville,2021-07-16,Referral,1
+1158,Customer 1158,Residential,Nashville,2022-08-17,Organic,1
+1159,Customer 1159,Residential,Franklin,2023-05-30,Referral,0
+1160,Customer 1160,Commercial,Brentwood,2021-02-17,Google,0
+1161,Customer 1161,Residential,Nashville,2023-08-28,Referral,1
+1162,Customer 1162,Residential,Spring Hill,2020-11-01,Google,0
+1163,Customer 1163,Residential,Nolensville,2022-03-05,Google,0
+1164,Customer 1164,Residential,Spring Hill,2021-12-25,Organic,1
+1165,Customer 1165,Residential,Nolensville,2021-10-28,Home Services Marketplace,1
+1166,Customer 1166,Residential,Nashville,2024-01-23,Google,0
+1167,Customer 1167,Residential,Nolensville,2021-06-12,Google,0
+1168,Customer 1168,Residential,Nolensville,2022-12-16,Referral,0
+1169,Customer 1169,Residential,Spring Hill,2024-11-12,Referral,0
+1170,Customer 1170,Residential,Franklin,2021-07-31,Google,1
+1171,Customer 1171,Residential,Brentwood,2023-12-31,Direct Mail,0
+1172,Customer 1172,Residential,Nashville,2022-02-11,Referral,0
+1173,Customer 1173,Commercial,Nolensville,2022-11-03,Organic,1
+1174,Customer 1174,Commercial,Franklin,2024-01-14,Organic,0
+1175,Customer 1175,Residential,Spring Hill,2021-07-17,Referral,0
+1176,Customer 1176,Residential,Nolensville,2024-01-26,Referral,0
+1177,Customer 1177,Residential,Nashville,2020-12-29,Google,0
+1178,Customer 1178,Residential,Brentwood,2022-06-25,Home Services Marketplace,0
+1179,Customer 1179,Residential,Spring Hill,2022-01-21,Direct Mail,1
+1180,Customer 1180,Residential,Franklin,2024-11-05,Google,1
+1181,Customer 1181,Residential,Nashville,2020-10-21,Organic,0
+1182,Customer 1182,Residential,Nashville,2024-05-26,Google,1
+1183,Customer 1183,Residential,Spring Hill,2024-09-03,Google,1
+1184,Customer 1184,Residential,Franklin,2024-07-05,Google,1
+1185,Customer 1185,Residential,Brentwood,2022-10-16,Google,1
+1186,Customer 1186,Residential,Nashville,2021-06-18,Google,0
+1187,Customer 1187,Residential,Franklin,2024-10-12,Organic,0
+1188,Customer 1188,Residential,Spring Hill,2022-04-22,Referral,0
+1189,Customer 1189,Commercial,Spring Hill,2021-11-25,Referral,1
+1190,Customer 1190,Residential,Spring Hill,2023-12-26,Organic,0
+1191,Customer 1191,Residential,Franklin,2021-10-24,Referral,0
+1192,Customer 1192,Residential,Brentwood,2023-01-11,Referral,0
+1193,Customer 1193,Residential,Nashville,2023-04-02,Referral,0
+1194,Customer 1194,Residential,Nashville,2024-12-22,Referral,0
+1195,Customer 1195,Residential,Nolensville,2023-05-15,Referral,0
+1196,Customer 1196,Commercial,Nashville,2020-09-27,Referral,1
+1197,Customer 1197,Residential,Nashville,2023-05-03,Organic,1
+1198,Customer 1198,Residential,Nolensville,2023-12-02,Referral,0
+1199,Customer 1199,Residential,Franklin,2024-01-23,Organic,1
+1200,Customer 1200,Residential,Brentwood,2023-09-28,Google,0
+1201,Customer 1201,Residential,Franklin,2020-09-09,Home Services Marketplace,0
+1202,Customer 1202,Residential,Brentwood,2023-06-15,Google,0
+1203,Customer 1203,Residential,Nolensville,2022-08-30,Google,0
+1204,Customer 1204,Residential,Nashville,2024-05-10,Organic,0
+1205,Customer 1205,Residential,Brentwood,2021-06-26,Referral,1
+1206,Customer 1206,Residential,Nashville,2021-12-23,Google,1
+1207,Customer 1207,Residential,Spring Hill,2024-04-10,Organic,0
+1208,Customer 1208,Residential,Brentwood,2024-02-18,Google,0
+1209,Customer 1209,Residential,Nashville,2022-03-08,Direct Mail,1
+1210,Customer 1210,Residential,Franklin,2023-02-15,Google,0
+1211,Customer 1211,Residential,Nolensville,2023-06-26,Home Services Marketplace,0
+1212,Customer 1212,Residential,Nashville,2023-11-25,Home Services Marketplace,0
+1213,Customer 1213,Residential,Nashville,2024-11-27,Google,0
+1214,Customer 1214,Residential,Nolensville,2020-08-26,Direct Mail,0
+1215,Customer 1215,Commercial,Nashville,2023-11-11,Referral,1
+1216,Customer 1216,Residential,Nolensville,2023-10-23,Referral,0
+1217,Customer 1217,Residential,Brentwood,2023-03-02,Google,0
+1218,Customer 1218,Residential,Brentwood,2021-11-23,Referral,0
+1219,Customer 1219,Residential,Nashville,2023-11-12,Referral,0
+1220,Customer 1220,Residential,Nashville,2024-05-05,Google,1
+1221,Customer 1221,Residential,Franklin,2023-06-06,Referral,1
+1222,Customer 1222,Residential,Franklin,2024-09-27,Referral,1
+1223,Customer 1223,Residential,Brentwood,2024-02-09,Referral,0
+1224,Customer 1224,Residential,Nashville,2024-06-18,Organic,0
+1225,Customer 1225,Commercial,Nashville,2020-09-19,Organic,1
+1226,Customer 1226,Residential,Nashville,2021-01-16,Referral,0
+1227,Customer 1227,Residential,Nashville,2023-03-15,Direct Mail,0
+1228,Customer 1228,Residential,Nolensville,2022-07-08,Organic,0
+1229,Customer 1229,Residential,Nashville,2020-11-30,Google,0
+1230,Customer 1230,Residential,Spring Hill,2022-07-10,Referral,1
+1231,Customer 1231,Residential,Franklin,2021-10-19,Google,1
+1232,Customer 1232,Residential,Franklin,2023-06-08,Home Services Marketplace,0
+1233,Customer 1233,Residential,Brentwood,2024-01-29,Google,1
+1234,Customer 1234,Residential,Nashville,2023-07-02,Referral,0
+1235,Customer 1235,Residential,Franklin,2022-02-20,Referral,1
+1236,Customer 1236,Residential,Nashville,2022-12-08,Home Services Marketplace,1
+1237,Customer 1237,Residential,Nashville,2021-04-14,Direct Mail,1
+1238,Customer 1238,Residential,Nolensville,2021-02-22,Referral,0
+1239,Customer 1239,Residential,Franklin,2023-03-03,Referral,1
+1240,Customer 1240,Residential,Nashville,2021-04-13,Google,1
+1241,Customer 1241,Residential,Nolensville,2024-10-19,Google,0
+1242,Customer 1242,Residential,Franklin,2021-10-10,Organic,0
+1243,Customer 1243,Residential,Franklin,2021-06-24,Organic,0
+1244,Customer 1244,Residential,Nashville,2021-07-31,Organic,1
+1245,Customer 1245,Commercial,Nashville,2021-04-20,Referral,0
+1246,Customer 1246,Residential,Spring Hill,2021-05-24,Google,1
+1247,Customer 1247,Commercial,Franklin,2022-08-24,Home Services Marketplace,0
+1248,Customer 1248,Residential,Nolensville,2021-07-08,Google,1
+1249,Customer 1249,Residential,Nashville,2023-04-10,Google,0
+1250,Customer 1250,Residential,Nashville,2024-05-29,Organic,0
+1251,Customer 1251,Residential,Franklin,2022-01-10,Organic,1
+1252,Customer 1252,Commercial,Brentwood,2021-11-05,Organic,1
+1253,Customer 1253,Residential,Franklin,2021-05-25,Referral,1
+1254,Customer 1254,Residential,Brentwood,2022-08-01,Home Services Marketplace,0
+1255,Customer 1255,Residential,Nashville,2022-09-22,Referral,1
+1256,Customer 1256,Residential,Brentwood,2021-08-12,Referral,0
+1257,Customer 1257,Residential,Franklin,2023-02-27,Home Services Marketplace,0
+1258,Customer 1258,Residential,Franklin,2020-11-27,Google,0
+1259,Customer 1259,Residential,Nashville,2022-11-15,Organic,0
+1260,Customer 1260,Residential,Spring Hill,2022-06-10,Referral,0
+1261,Customer 1261,Residential,Franklin,2023-05-20,Organic,1
+1262,Customer 1262,Commercial,Franklin,2023-04-14,Google,0
+1263,Customer 1263,Residential,Spring Hill,2023-03-19,Google,0
+1264,Customer 1264,Residential,Nolensville,2023-06-06,Direct Mail,0
+1265,Customer 1265,Residential,Franklin,2021-10-09,Google,0
+1266,Customer 1266,Residential,Nashville,2024-03-14,Google,0
+1267,Customer 1267,Residential,Spring Hill,2023-07-17,Home Services Marketplace,1
+1268,Customer 1268,Residential,Nashville,2023-10-04,Organic,0
+1269,Customer 1269,Residential,Brentwood,2024-01-03,Referral,0
+1270,Customer 1270,Residential,Spring Hill,2024-06-10,Organic,0
+1271,Customer 1271,Residential,Nashville,2021-09-29,Referral,0
+1272,Customer 1272,Commercial,Nolensville,2023-02-07,Referral,0
+1273,Customer 1273,Residential,Nolensville,2024-04-20,Home Services Marketplace,0
+1274,Customer 1274,Residential,Nashville,2021-08-07,Direct Mail,0
+1275,Customer 1275,Residential,Brentwood,2024-09-03,Google,1
+1276,Customer 1276,Residential,Nashville,2024-02-20,Google,0
+1277,Customer 1277,Residential,Brentwood,2021-03-14,Organic,1
+1278,Customer 1278,Residential,Franklin,2021-08-22,Referral,1
+1279,Customer 1279,Residential,Nashville,2022-10-07,Google,0
+1280,Customer 1280,Residential,Nashville,2020-10-18,Google,0
+1281,Customer 1281,Residential,Franklin,2022-03-01,Referral,0
+1282,Customer 1282,Residential,Brentwood,2022-04-13,Referral,0
+1283,Customer 1283,Residential,Franklin,2023-11-17,Referral,0
+1284,Customer 1284,Residential,Spring Hill,2023-08-14,Google,0
+1285,Customer 1285,Residential,Nolensville,2021-09-30,Google,0
+1286,Customer 1286,Residential,Brentwood,2023-01-09,Google,0
+1287,Customer 1287,Residential,Franklin,2020-08-29,Google,0
+1288,Customer 1288,Residential,Spring Hill,2022-07-01,Organic,0
+1289,Customer 1289,Commercial,Franklin,2023-09-01,Google,0
+1290,Customer 1290,Residential,Franklin,2024-06-30,Google,0
+1291,Customer 1291,Commercial,Nashville,2024-02-24,Home Services Marketplace,0
+1292,Customer 1292,Residential,Nolensville,2021-02-01,Home Services Marketplace,0
+1293,Customer 1293,Residential,Nashville,2023-02-12,Google,0
+1294,Customer 1294,Residential,Franklin,2022-01-16,Organic,0
+1295,Customer 1295,Residential,Franklin,2024-03-08,Organic,0
+1296,Customer 1296,Residential,Brentwood,2021-04-04,Referral,0
+1297,Customer 1297,Residential,Nashville,2023-11-07,Home Services Marketplace,1
+1298,Customer 1298,Residential,Brentwood,2021-04-22,Direct Mail,1
+1299,Customer 1299,Residential,Nashville,2021-04-05,Home Services Marketplace,0
+1300,Customer 1300,Residential,Brentwood,2024-11-13,Google,0
+1301,Customer 1301,Residential,Spring Hill,2022-11-04,Referral,1
+1302,Customer 1302,Commercial,Brentwood,2022-04-05,Home Services Marketplace,0
+1303,Customer 1303,Residential,Franklin,2022-03-03,Direct Mail,0
+1304,Customer 1304,Residential,Franklin,2024-10-02,Google,1
+1305,Customer 1305,Residential,Franklin,2022-10-09,Organic,0
+1306,Customer 1306,Residential,Nashville,2022-12-26,Organic,0
+1307,Customer 1307,Commercial,Nashville,2022-03-02,Google,0
+1308,Customer 1308,Residential,Nashville,2022-10-22,Home Services Marketplace,0
+1309,Customer 1309,Residential,Nolensville,2021-11-12,Direct Mail,1
+1310,Customer 1310,Residential,Nashville,2022-10-10,Organic,0
+1311,Customer 1311,Residential,Nashville,2021-03-05,Organic,0
+1312,Customer 1312,Residential,Brentwood,2023-08-18,Referral,0
+1313,Customer 1313,Residential,Franklin,2021-08-01,Google,0
+1314,Customer 1314,Residential,Franklin,2024-03-14,Referral,1
+1315,Customer 1315,Residential,Brentwood,2024-03-15,Google,1
+1316,Customer 1316,Residential,Brentwood,2024-03-21,Referral,0
+1317,Customer 1317,Residential,Spring Hill,2021-04-19,Direct Mail,0
+1318,Customer 1318,Residential,Spring Hill,2021-11-07,Referral,1
+1319,Customer 1319,Residential,Brentwood,2024-02-28,Organic,0
+1320,Customer 1320,Commercial,Nolensville,2022-08-28,Direct Mail,0
+1321,Customer 1321,Residential,Nashville,2021-05-28,Direct Mail,0
+1322,Customer 1322,Residential,Nashville,2024-05-18,Google,0
+1323,Customer 1323,Commercial,Nashville,2021-07-08,Google,1
+1324,Customer 1324,Residential,Franklin,2023-09-04,Google,0
+1325,Customer 1325,Residential,Nashville,2022-04-21,Google,0
+1326,Customer 1326,Residential,Nolensville,2021-05-02,Referral,0
+1327,Customer 1327,Residential,Spring Hill,2024-03-16,Google,0
+1328,Customer 1328,Residential,Nashville,2024-11-22,Direct Mail,0
+1329,Customer 1329,Residential,Spring Hill,2021-03-19,Direct Mail,1
+1330,Customer 1330,Residential,Nolensville,2022-07-07,Home Services Marketplace,1
+1331,Customer 1331,Residential,Franklin,2022-05-30,Home Services Marketplace,0
+1332,Customer 1332,Residential,Franklin,2021-07-26,Organic,0
+1333,Customer 1333,Residential,Franklin,2021-07-19,Direct Mail,0
+1334,Customer 1334,Residential,Brentwood,2021-05-19,Home Services Marketplace,0
+1335,Customer 1335,Residential,Nolensville,2022-06-12,Referral,0
+1336,Customer 1336,Residential,Spring Hill,2023-08-07,Referral,0
+1337,Customer 1337,Residential,Franklin,2021-11-06,Referral,1
+1338,Customer 1338,Commercial,Nolensville,2023-11-30,Google,0
+1339,Customer 1339,Residential,Franklin,2023-05-17,Referral,0
+1340,Customer 1340,Residential,Franklin,2024-09-02,Organic,0
+1341,Customer 1341,Residential,Spring Hill,2021-05-09,Referral,1
+1342,Customer 1342,Residential,Brentwood,2021-09-11,Direct Mail,0
+1343,Customer 1343,Residential,Brentwood,2022-08-29,Google,0
+1344,Customer 1344,Residential,Nashville,2020-12-24,Home Services Marketplace,0
+1345,Customer 1345,Residential,Spring Hill,2023-02-28,Organic,0
+1346,Customer 1346,Residential,Spring Hill,2020-12-12,Organic,0
+1347,Customer 1347,Residential,Nashville,2021-06-03,Referral,0
+1348,Customer 1348,Residential,Franklin,2022-02-09,Organic,0
+1349,Customer 1349,Residential,Nashville,2024-09-24,Organic,0
+1350,Customer 1350,Residential,Spring Hill,2021-04-12,Home Services Marketplace,1
+1351,Customer 1351,Residential,Nashville,2020-08-30,Organic,0
+1352,Customer 1352,Residential,Franklin,2020-08-31,Direct Mail,0
+1353,Customer 1353,Residential,Nashville,2024-03-28,Direct Mail,1
+1354,Customer 1354,Residential,Nashville,2024-11-27,Referral,1
+1355,Customer 1355,Residential,Spring Hill,2024-12-11,Organic,0
+1356,Customer 1356,Residential,Franklin,2021-04-12,Referral,1
+1357,Customer 1357,Residential,Franklin,2021-08-11,Google,0
+1358,Customer 1358,Residential,Spring Hill,2021-06-14,Referral,0
+1359,Customer 1359,Residential,Nolensville,2024-02-23,Google,0
+1360,Customer 1360,Residential,Franklin,2024-10-17,Organic,1
+1361,Customer 1361,Residential,Nolensville,2024-06-26,Google,0
+1362,Customer 1362,Residential,Franklin,2021-03-17,Google,0
+1363,Customer 1363,Residential,Brentwood,2021-10-07,Home Services Marketplace,0
+1364,Customer 1364,Residential,Nashville,2021-09-24,Referral,1
+1365,Customer 1365,Residential,Nashville,2023-03-02,Referral,0
+1366,Customer 1366,Residential,Franklin,2022-07-31,Home Services Marketplace,0
+1367,Customer 1367,Residential,Nashville,2024-04-17,Organic,1
+1368,Customer 1368,Residential,Nashville,2022-01-13,Google,1
+1369,Customer 1369,Residential,Nashville,2021-10-09,Organic,1
+1370,Customer 1370,Commercial,Brentwood,2022-04-07,Organic,0
+1371,Customer 1371,Residential,Brentwood,2021-01-05,Google,1
+1372,Customer 1372,Residential,Brentwood,2022-01-11,Referral,0
+1373,Customer 1373,Commercial,Brentwood,2021-07-13,Referral,0
+1374,Customer 1374,Residential,Franklin,2022-03-20,Home Services Marketplace,0
+1375,Customer 1375,Residential,Spring Hill,2023-05-08,Direct Mail,0
+1376,Customer 1376,Residential,Nashville,2021-06-21,Home Services Marketplace,1
+1377,Customer 1377,Residential,Nolensville,2021-07-11,Direct Mail,0
+1378,Customer 1378,Residential,Franklin,2021-11-01,Home Services Marketplace,0
+1379,Customer 1379,Residential,Nashville,2021-02-08,Google,0
+1380,Customer 1380,Residential,Nolensville,2022-02-19,Referral,0
+1381,Customer 1381,Residential,Nolensville,2023-02-09,Referral,0
+1382,Customer 1382,Residential,Brentwood,2024-10-24,Home Services Marketplace,1
+1383,Customer 1383,Residential,Nashville,2021-03-16,Referral,0
+1384,Customer 1384,Residential,Franklin,2024-03-19,Referral,0
+1385,Customer 1385,Commercial,Brentwood,2021-12-19,Home Services Marketplace,0
+1386,Customer 1386,Residential,Franklin,2020-10-24,Google,1
+1387,Customer 1387,Residential,Franklin,2021-03-05,Google,0
+1388,Customer 1388,Residential,Franklin,2021-02-18,Google,1
+1389,Customer 1389,Residential,Spring Hill,2024-08-09,Direct Mail,0
+1390,Customer 1390,Residential,Nashville,2022-11-15,Organic,1
+1391,Customer 1391,Residential,Nolensville,2022-10-17,Google,0
+1392,Customer 1392,Residential,Nashville,2023-04-01,Organic,0
+1393,Customer 1393,Residential,Nashville,2022-08-28,Google,1
+1394,Customer 1394,Residential,Spring Hill,2023-04-13,Google,1
+1395,Customer 1395,Residential,Nashville,2024-10-07,Home Services Marketplace,0
+1396,Customer 1396,Residential,Spring Hill,2024-11-01,Home Services Marketplace,1
+1397,Customer 1397,Residential,Spring Hill,2023-01-26,Direct Mail,0
+1398,Customer 1398,Residential,Nolensville,2020-08-17,Google,0
+1399,Customer 1399,Residential,Nolensville,2022-01-30,Organic,0
+1400,Customer 1400,Residential,Nashville,2022-05-27,Referral,0
+1401,Customer 1401,Residential,Spring Hill,2023-03-27,Direct Mail,0
+1402,Customer 1402,Residential,Brentwood,2024-06-27,Google,1
+1403,Customer 1403,Residential,Spring Hill,2020-09-05,Organic,0
+1404,Customer 1404,Residential,Nashville,2023-03-24,Organic,0
+1405,Customer 1405,Residential,Nashville,2023-05-16,Google,1
+1406,Customer 1406,Residential,Nashville,2024-04-26,Google,1
+1407,Customer 1407,Residential,Nashville,2021-06-26,Referral,0
+1408,Customer 1408,Residential,Nashville,2021-11-23,Google,1
+1409,Customer 1409,Residential,Nashville,2023-05-22,Referral,0
+1410,Customer 1410,Residential,Nashville,2023-01-29,Referral,0
+1411,Customer 1411,Residential,Nashville,2021-03-10,Google,0
+1412,Customer 1412,Residential,Franklin,2022-10-12,Google,0
+1413,Customer 1413,Residential,Brentwood,2021-02-08,Organic,0
+1414,Customer 1414,Residential,Brentwood,2023-11-13,Organic,0
+1415,Customer 1415,Residential,Brentwood,2020-09-27,Organic,1
+1416,Customer 1416,Residential,Franklin,2021-01-22,Referral,0
+1417,Customer 1417,Residential,Franklin,2020-12-29,Organic,0
+1418,Customer 1418,Commercial,Franklin,2024-03-03,Home Services Marketplace,0
+1419,Customer 1419,Commercial,Brentwood,2022-10-12,Google,0
+1420,Customer 1420,Residential,Spring Hill,2023-02-26,Referral,0
+1421,Customer 1421,Residential,Nashville,2023-01-03,Referral,0
+1422,Customer 1422,Residential,Nolensville,2023-01-09,Organic,0
+1423,Customer 1423,Residential,Nashville,2020-12-21,Home Services Marketplace,0
+1424,Customer 1424,Residential,Nashville,2023-04-14,Referral,0
+1425,Customer 1425,Residential,Franklin,2021-06-30,Google,0
+1426,Customer 1426,Residential,Nashville,2024-08-09,Referral,0
+1427,Customer 1427,Residential,Nolensville,2022-07-15,Referral,1
+1428,Customer 1428,Residential,Franklin,2024-01-03,Organic,1
+1429,Customer 1429,Commercial,Nashville,2021-10-04,Home Services Marketplace,0
+1430,Customer 1430,Residential,Nashville,2023-02-25,Referral,0
+1431,Customer 1431,Residential,Nolensville,2022-09-13,Google,0
+1432,Customer 1432,Residential,Nashville,2020-08-26,Home Services Marketplace,0
+1433,Customer 1433,Residential,Nashville,2024-08-19,Google,1
+1434,Customer 1434,Commercial,Nolensville,2020-09-28,Organic,1
+1435,Customer 1435,Residential,Nashville,2024-02-21,Referral,1
+1436,Customer 1436,Residential,Nashville,2022-06-21,Google,0
+1437,Customer 1437,Residential,Brentwood,2021-10-12,Home Services Marketplace,1
+1438,Customer 1438,Commercial,Brentwood,2022-07-16,Organic,0
+1439,Customer 1439,Commercial,Spring Hill,2021-09-16,Google,0
+1440,Customer 1440,Residential,Spring Hill,2024-04-05,Home Services Marketplace,0
+1441,Customer 1441,Commercial,Nashville,2024-09-05,Google,1
+1442,Customer 1442,Commercial,Franklin,2024-05-12,Home Services Marketplace,1
+1443,Customer 1443,Residential,Spring Hill,2021-01-14,Organic,1
+1444,Customer 1444,Residential,Brentwood,2022-09-13,Referral,1
+1445,Customer 1445,Residential,Franklin,2022-04-25,Google,1
+1446,Customer 1446,Residential,Franklin,2022-12-16,Home Services Marketplace,0
+1447,Customer 1447,Commercial,Nashville,2021-03-21,Google,0
+1448,Customer 1448,Residential,Nashville,2024-03-03,Organic,0
+1449,Customer 1449,Residential,Franklin,2024-03-19,Google,0
+1450,Customer 1450,Residential,Brentwood,2022-06-03,Home Services Marketplace,1
