@@ -13,7 +13,7 @@ BUILD_SCRIPT = ROOT / "scripts" / "build_duckdb.py"
 st.set_page_config(page_title="Hicks Analytics | HVAC Performance Hub", page_icon="❄️", layout="wide")
 st.markdown("""
 <style>
-.block-container{padding-top:1.25rem;max-width:1480px}.brand-kicker{font-size:.76rem;letter-spacing:.15em;text-transform:uppercase;color:#45a9ce;font-weight:700}.brand-title{font-size:2.15rem;font-weight:760;line-height:1.1}.brand-subtitle{opacity:.68;margin-bottom:1.2rem}.insight-card{border:1px solid rgba(100,130,150,.22);border-radius:14px;padding:1rem 1.1rem;min-height:125px;background:rgba(65,156,195,.035)}.insight-card strong{color:#2d7fa2}div[data-testid="stMetric"]{border:1px solid rgba(105,130,150,.19);padding:.75rem .85rem;border-radius:14px}.demo-note{font-size:.8rem;opacity:.65;border-top:1px solid rgba(120,120,120,.2);padding-top:.75rem}
+.block-container{padding-top:1.25rem;max-width:1480px}.brand-kicker{font-size:.76rem;letter-spacing:.15em;text-transform:uppercase;color:#45a9ce;font-weight:700}.brand-title{font-size:2.15rem;font-weight:760;line-height:1.1}.brand-subtitle{opacity:.68;margin-bottom:1.2rem}.insight-card{border:1px solid rgba(100,130,150,.22);border-radius:14px;padding:1rem 1.1rem;min-height:125px;background:rgba(65,156,195,.035)}.insight-card strong{color:#2d7fa2}div[data-testid="stMetric"]{border:1px solid rgba(105,130,150,.19);padding:.75rem .85rem;border-radius:14px}.demo-note{font-size:.8rem;opacity:.65;border-top:1px solid rgba(120,120,120,.2);padding-top:.75rem}.story-hero{background:linear-gradient(135deg,rgba(8,82,120,.97),rgba(20,130,165,.84));color:white;border-radius:20px;padding:1.6rem 1.8rem;margin:.4rem 0 1.2rem;box-shadow:0 12px 34px rgba(8,82,120,.17)}.story-hero h2{color:white;margin:0 0 .45rem}.story-hero p{color:rgba(255,255,255,.88);margin:0;max-width:860px}.story-callout{border-left:5px solid #45c4b8;background:rgba(69,196,184,.09);border-radius:0 14px 14px 0;padding:1rem 1.15rem;margin:.8rem 0 1.1rem}.story-step{text-transform:uppercase;letter-spacing:.1em;font-size:.74rem;font-weight:700;opacity:.7}
 </style>
 """, unsafe_allow_html=True)
 
@@ -72,13 +72,24 @@ def headline():
 st.sidebar.markdown("## Hicks Analytics")
 st.sidebar.caption("HVAC Performance Hub")
 st.sidebar.divider()
-page = st.sidebar.radio("View", ["Executive Overview", "Job Profitability", "Technician Performance", "Sales & Agreements"])
 min_date, max_date = jobs.completed_date.min().date(), jobs.completed_date.max().date()
-date_range = st.sidebar.date_input("Completed date", value=(min_date, max_date), min_value=min_date, max_value=max_date)
-selected_cities = st.sidebar.multiselect("Service area", sorted(jobs.city.unique()), default=sorted(jobs.city.unique()))
-selected_services = st.sidebar.multiselect("Service", sorted(jobs.service_name.unique()), default=sorted(jobs.service_name.unique()))
-selected_techs = st.sidebar.multiselect("Technician", sorted(jobs.technician_name.unique()), default=sorted(jobs.technician_name.unique()))
-member_filter = st.sidebar.selectbox("Customer membership", ["All customers", "Members", "Non-members"])
+all_cities = sorted(jobs.city.unique())
+all_services = sorted(jobs.service_name.unique())
+all_techs = sorted(jobs.technician_name.unique())
+experience = st.sidebar.radio("Experience", ["Guided Demo", "Explore Dashboard"], help="Follow an owner story or explore the complete dashboard.")
+if experience == "Guided Demo":
+    page = "Guided Demo"
+    date_range = (min_date, max_date)
+    selected_cities, selected_services, selected_techs = all_cities, all_services, all_techs
+    member_filter = "All customers"
+    st.sidebar.info("You are in the guided owner story. Switch to Explore Dashboard for filters and detailed views.")
+else:
+    page = st.sidebar.radio("View", ["Executive Overview", "Job Profitability", "Technician Performance", "Sales & Agreements"])
+    date_range = st.sidebar.date_input("Completed date", value=(min_date, max_date), min_value=min_date, max_value=max_date)
+    selected_cities = st.sidebar.multiselect("Service area", all_cities, default=all_cities)
+    selected_services = st.sidebar.multiselect("Service", all_services, default=all_services)
+    selected_techs = st.sidebar.multiselect("Technician", all_techs, default=all_techs)
+    member_filter = st.sidebar.selectbox("Customer membership", ["All customers", "Members", "Non-members"])
 st.sidebar.markdown('<div class="demo-note">Portfolio demo · Synthetic Middle Tennessee HVAC data</div>', unsafe_allow_html=True)
 
 if isinstance(date_range, tuple) and len(date_range) == 2:
@@ -105,9 +116,124 @@ def metric_row(labels, values):
         col.metric(label, value, border=True)
 
 
+def technician_summary(df):
+    return (
+        df.groupby(["technician_name", "technician_role"])
+        .agg(
+            Jobs=("job_id", "count"), Revenue=("billed_revenue", "sum"),
+            Profit=("gross_profit", "sum"), Hours=("actual_labor_hours", "sum"),
+            First_Time_Fix=("first_time_fix_flag", "mean"),
+            Callback_Rate=("callback_flag", "mean"), Callback_Jobs=("callback_flag", "sum"),
+            Agreement_Conversion=("agreement_sold_flag", "mean"), Rating=("customer_rating", "mean"),
+        )
+        .assign(Gross_Margin=lambda x:x.Profit/x.Revenue, Revenue_Per_Hour=lambda x:x.Revenue/x.Hours)
+        .reset_index()
+    )
+
+
+def change_story_step(delta):
+    st.session_state.hvac_story_step = min(4, max(0, st.session_state.hvac_story_step + delta))
+
+
+def story_navigation(step):
+    st.write("")
+    left, middle, right = st.columns([1, 2.4, 1])
+    with left:
+        if step > 0:
+            st.button("← Previous", width="stretch", on_click=change_story_step, args=(-1,))
+    with middle:
+        st.progress(step / 4, text=f"Guided story · Step {step + 1} of 5")
+    with right:
+        if step < 4:
+            st.button("Next →", type="primary", width="stretch", on_click=change_story_step, args=(1,))
+
+
+def render_guided_demo(df):
+    if "hvac_story_step" not in st.session_state:
+        st.session_state.hvac_story_step = 0
+    story_df = df[df["completed_date"].dt.to_period("M") < df["completed_date"].max().to_period("M")].copy()
+    tech = technician_summary(story_df)
+    focus = tech.sort_values(["First_Time_Fix", "Callback_Rate"], ascending=[True, False]).iloc[0]
+    benchmark = tech.sort_values("First_Time_Fix", ascending=False).iloc[0]
+    focus_jobs = story_df[story_df.technician_name == focus.technician_name].copy()
+    portfolio_ftf = story_df.first_time_fix_flag.mean()
+    step = st.session_state.hvac_story_step
+
+    st.markdown(f'''<div class="story-hero"><div class="story-step">Interactive owner story</div><h2>Callbacks are climbing—but what is really driving them?</h2><p>Step into the HVAC owner's seat, isolate the service-quality gap, test an improvement target, and turn the finding into a coaching plan.</p></div>''', unsafe_allow_html=True)
+
+    if step == 0:
+        st.subheader("Your Monday-morning question")
+        st.write("The schedule is packed, yet technicians are returning to jobs that should have been resolved on the first visit. Your goal is to identify where callbacks are consuming capacity and weakening the customer experience.")
+        m = metrics(story_df)
+        metric_row(["Revenue reviewed", "Gross profit", "First-time fix", "Callback rate"], [money(m["revenue"]), money(m["profit"]), pct(m["ftf"]), pct(m["callback"])])
+        st.markdown('<div class="story-callout"><strong>Your mission:</strong> find the technician-quality gap, understand its operating cost, and model a realistic improvement.</div>', unsafe_allow_html=True)
+
+    elif step == 1:
+        st.subheader("The warning sign")
+        metric_row(["Technician needing attention", "First-time fix", "Callback rate", "Gap vs team"], [focus.technician_name, pct(focus.First_Time_Fix), pct(focus.Callback_Rate), f"{(focus.First_Time_Fix-portfolio_ftf)*100:+.1f} pts"])
+        chart_data = tech.sort_values("First_Time_Fix").copy()
+        chart_data["Status"] = chart_data.technician_name.apply(lambda x: "Investigate" if x == focus.technician_name else "Other technicians")
+        fig = px.bar(chart_data, x="First_Time_Fix", y="technician_name", color="Status", orientation="h", title="First-Time Fix by Technician", color_discrete_map={"Investigate":"#f59e0b","Other technicians":"#1689b0"})
+        fig.update_xaxes(tickformat=".0%", range=[.65,1])
+        st.plotly_chart(chart(fig, 390), width="stretch")
+        st.markdown(f'<div class="story-callout"><strong>What the owner should notice:</strong> {focus.technician_name} trails {benchmark.technician_name} by <strong>{(benchmark.First_Time_Fix-focus.First_Time_Fix)*100:.1f} points</strong> in first-time fix. That gap creates repeat truck rolls and lost appointment capacity.</div>', unsafe_allow_html=True)
+
+    elif step == 2:
+        st.subheader("Follow the evidence")
+        c1, c2 = st.columns([1.25,1])
+        with c1:
+            fig = px.scatter(tech, x="First_Time_Fix", y="Callback_Rate", size="Revenue", color="Rating", text="technician_name", title="First-Time Fix vs Callback Rate", color_continuous_scale="RdYlGn")
+            fig.update_xaxes(tickformat=".0%"); fig.update_yaxes(tickformat=".0%"); fig.update_traces(textposition="top center")
+            st.plotly_chart(chart(fig, 420, False), width="stretch")
+        with c2:
+            st.metric("Callback jobs", f"{int(focus.Callback_Jobs):,}", border=True)
+            st.metric("Customer rating", f"{focus.Rating:.2f}", border=True)
+            st.metric("Revenue / tech hour", money(focus.Revenue_Per_Hour), border=True)
+            st.markdown(f'<div class="story-callout"><strong>Diagnosis:</strong> {focus.technician_name} combines the team\'s lowest first-time-fix rate with a {focus.Callback_Rate:.1%} callback rate. Review diagnostic consistency, parts readiness, and repeat service categories before treating this as a sales problem.</div>', unsafe_allow_html=True)
+
+    elif step == 3:
+        st.subheader("Test a decision before making it")
+        st.caption(f"Model targeted diagnostic coaching and parts-readiness improvements for {focus.technician_name}. Financial impact uses observed labor cost on callback-flagged jobs.")
+        callback_reduction = st.slider("Reduction in callback jobs", 10, 60, 35, 5, format="%d%%")
+        ftf_gain = st.slider("First-time-fix improvement", 2, 15, 8, 1, format="%d points")
+        callback_jobs = focus_jobs[focus_jobs.callback_flag == 1]
+        avoided_callbacks = focus.Callback_Jobs * callback_reduction / 100
+        avg_callback_hours = callback_jobs.actual_labor_hours.mean() if len(callback_jobs) else 0
+        avg_callback_labor = callback_jobs.labor_cost.mean() if len(callback_jobs) else 0
+        months = max(1, story_df.completed_date.dt.to_period("M").nunique())
+        annual_labor_savings = avoided_callbacks * avg_callback_labor / months * 12
+        annual_capacity_hours = avoided_callbacks * avg_callback_hours / months * 12
+        modeled_ftf = min(1, focus.First_Time_Fix + ftf_gain / 100)
+        metric_row(["Callbacks avoided", "Annual labor protected", "Annual capacity recovered", "Modeled first-time fix"], [f"{avoided_callbacks:,.0f}", money(annual_labor_savings), f"{annual_capacity_hours:,.0f} hrs", pct(modeled_ftf)])
+        comparison = pd.DataFrame({"Scenario":["Current","Modeled"], "First-Time Fix":[focus.First_Time_Fix,modeled_ftf]})
+        fig = px.bar(comparison, x="Scenario", y="First-Time Fix", color="Scenario", title="Current vs Modeled First-Time Fix", color_discrete_map={"Current":"#94a3b8","Modeled":"#1689b0"})
+        fig.update_yaxes(tickformat=".0%", range=[0,1]); fig.update_layout(showlegend=False)
+        st.plotly_chart(chart(fig, 340), width="stretch")
+        st.caption("Illustrative scenario based on synthetic portfolio data. It is a decision aid, not a guaranteed forecast.")
+
+    else:
+        st.subheader("Turn the insight into an operating plan")
+        c1, c2, c3 = st.columns(3)
+        c1.markdown('<div class="insight-card"><strong>1 · Diagnose</strong><br><br>Review callback jobs by service, failure type, parts used, and original diagnosis. Separate process issues from individual coaching needs.</div>', unsafe_allow_html=True)
+        c2.markdown('<div class="insight-card"><strong>2 · Act</strong><br><br>Create a diagnostic checklist, stage common parts, and coach the technician on the service categories driving repeat visits.</div>', unsafe_allow_html=True)
+        c3.markdown('<div class="insight-card"><strong>3 · Measure</strong><br><br>Track first-time fix, callbacks, ratings, and revenue per technician hour weekly to verify sustained improvement.</div>', unsafe_allow_html=True)
+        st.success("This is the Hicks Analytics approach: connect field-service data, surface the decision, quantify the opportunity, and build a repeatable management rhythm.")
+        a1, a2, _ = st.columns([1.2,1.1,2])
+        with a1:
+            st.link_button("Build this for my business", "https://hicksanalytics.com/#contact", type="primary", width="stretch")
+        with a2:
+            if st.button("Restart the story", width="stretch"):
+                st.session_state.hvac_story_step = 0
+                st.rerun()
+    story_navigation(step)
+
+
 headline()
 
-if page == "Executive Overview":
+if page == "Guided Demo":
+    render_guided_demo(filtered)
+
+elif page == "Executive Overview":
     m = metrics(filtered)
     metric_row(["Revenue", "Gross Profit", "Gross Margin", "Jobs Completed", "Avg Ticket", "First-Time Fix"], [money(m["revenue"]), money(m["profit"]), pct(m["margin"]), f'{m["jobs"]:,}', money(m["ticket"]), pct(m["ftf"])])
     monthly = filtered.groupby(pd.Grouper(key="completed_date", freq="MS")).agg(Revenue=("billed_revenue", "sum"), Gross_Profit=("gross_profit", "sum")).reset_index()
